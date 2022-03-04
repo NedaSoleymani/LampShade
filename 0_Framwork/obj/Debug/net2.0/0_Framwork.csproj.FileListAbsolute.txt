@@ -1,0 +1,4 @@
+F:\ASP.Net Core 5 آموزش\Project\Code\LampShade\0_Framwork\obj\Debug\net2.0\0_Framwork.csprojAssemblyReference.cache
+F:\ASP.Net Core 5 آموزش\Project\Code\LampShade\0_Framwork\obj\Debug\net2.0\0_Framwork.csproj.CoreCompileInputs.cache
+F:\ASP.Net Core 5 آموزش\Project\Code\LampShade\0_Framwork\obj\Debug\net2.0\0_Framwork.AssemblyInfoInputs.cache
+F:\ASP.Net Core 5 آموزش\Project\Code\LampShade\0_Framwork\obj\Debug\net2.0\0_Framwork.AssemblyInfo.cs

@@ -5,7 +5,72 @@
       "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
       "DisplayName": "Miscellaneous Files",
       "ColorIndex": -1
+    },
+    "54d23237-bc75-4a7f-b963-43f936e29727": {
+      "ProjectGuid": "54d23237-bc75-4a7f-b963-43f936e29727",
+      "DisplayName": "ShopManagment.Infrastructure.EFCore",
+      "ColorIndex": 0
+    },
+    "0ec63507-e0f6-43aa-8994-784d146fb25d": {
+      "ProjectGuid": "0ec63507-e0f6-43aa-8994-784d146fb25d",
+      "DisplayName": "0_Framwork",
+      "ColorIndex": 1
+    },
+    "9059919f-d394-4f12-8ca9-646505e748e7": {
+      "ProjectGuid": "9059919f-d394-4f12-8ca9-646505e748e7",
+      "DisplayName": "ServiceHost",
+      "ColorIndex": 2
+    },
+    "d2d6993a-d68b-43bd-ba52-a7ca6355229a": {
+      "ProjectGuid": "d2d6993a-d68b-43bd-ba52-a7ca6355229a",
+      "DisplayName": "ShopManagment.Application",
+      "ColorIndex": 3
+    },
+    "49c4e304-7d8a-4891-a591-723fce792e65": {
+      "ProjectGuid": "49c4e304-7d8a-4891-a591-723fce792e65",
+      "DisplayName": "ShopMangment.Configuration",
+      "ColorIndex": 4
+    },
+    "521ed592-38c8-4fe2-b3c0-afc6fb6283c3": {
+      "ProjectGuid": "521ed592-38c8-4fe2-b3c0-afc6fb6283c3",
+      "DisplayName": "ShopManagement.Domain",
+      "ColorIndex": 5
+    },
+    "83ce37ec-5be7-4341-bf0d-5a05f1f5bfc9": {
+      "ProjectGuid": "83ce37ec-5be7-4341-bf0d-5a05f1f5bfc9",
+      "DisplayName": "ShopManagment.Application.Contracts",
+      "ColorIndex": 6
+    },
+    "7ca25f63-cc1a-4137-a545-166e18988821": {
+      "ProjectGuid": "7ca25f63-cc1a-4137-a545-166e18988821",
+      "DisplayName": "ServicesHost",
+      "ColorIndex": 7
+    },
+    "e869be1f-d5e0-419d-8102-46b306a1b5b7": {
+      "ProjectGuid": "e869be1f-d5e0-419d-8102-46b306a1b5b7",
+      "DisplayName": "ServicesHosts",
+      "ColorIndex": 8
+    },
+    "e7d9f848-5038-4471-bef1-55ecaee1ea6a": {
+      "ProjectGuid": "e7d9f848-5038-4471-bef1-55ecaee1ea6a",
+      "DisplayName": "ServicesHostCore",
+      "ColorIndex": 9
+    },
+    "26544ccf-7f12-4464-97bd-08299b5770d7": {
+      "ProjectGuid": "26544ccf-7f12-4464-97bd-08299b5770d7",
+      "DisplayName": "ServiceHost",
+      "ColorIndex": 10
+    },
+    "a13edc83-4426-4103-a8f8-9318ea125d1b": {
+      "ProjectGuid": "a13edc83-4426-4103-a8f8-9318ea125d1b",
+      "DisplayName": "SeviceHost",
+      "ColorIndex": 11
+    },
+    "4da19a85-8c59-4cc3-802e-5708f73c715f": {
+      "ProjectGuid": "4da19a85-8c59-4cc3-802e-5708f73c715f",
+      "DisplayName": "ServiceHost",
+      "ColorIndex": 12
     }
   },
-  "NextColorIndex": 0
+  "NextColorIndex": 13
 }
