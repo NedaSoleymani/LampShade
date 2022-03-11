@@ -10,7 +10,7 @@ namespace _0_Framework.Application
 {
     public static class Slugify
     {
-        public static string ToSlug(this string phrase)
+        public static string Slugfiy(this string phrase)
         {
             var s = phrase.RemoveDiacritics().ToLower();
             s = Regex.Replace(s, @"[^\u0600-\u06FF\u0FBBA\u067E\u0686\u06AF\u06AF\u200c\u200Fa-z0-9\s-]",

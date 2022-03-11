@@ -1,3 +1,5 @@
+using InventoryManagement.Presentation.Api;
+using ShopManagement.Presentation.Api.Controller;
 using ShopMangment.Configuration;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -7,12 +9,25 @@ var builder = WebApplication.CreateBuilder(args);
 
 var connectionString = builder.Configuration.GetConnectionString("LampShadeDb");
 ShopMangmentBoostrapper.Configure(builder.Services, connectionString);
+//builder.Services.AddTransient<IFileUploader, FileUploader>();
+//builder.Services.AddTransient<IAuthHelper, AuthHelper>();
+
+builder.Services.AddCors(options => options.AddPolicy("MyPolicy", builder =>
+   builder.WithOrigins("https://localhost:")
+   .AllowAnyMethod()
+   .AllowAnyHeader()
+   ));
 
 //Install-Package Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation -Version 6.0.2
-builder.Services.AddRazorPages().AddRazorRuntimeCompilation();
-// services.AddControllersWithViews().AddRazorRuntimeCompilation();  
+builder.Services.AddRazorPages().AddRazorRuntimeCompilation()
+// services.AddControllersWithViews().AddRazorRuntimeCompilation();
+// 
+.AddApplicationPart(typeof(ProductController).Assembly)
+.AddApplicationPart(typeof(InventoryController).Assembly)
+.AddNewtonsoftJson();
 
 var app = builder.Build();
+
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
@@ -30,5 +45,6 @@ app.UseRouting();
 app.UseAuthorization();
 
 app.MapRazorPages();
-
+app.MapControllers();
+app.UseCors("MyPolicy");
 app.Run();

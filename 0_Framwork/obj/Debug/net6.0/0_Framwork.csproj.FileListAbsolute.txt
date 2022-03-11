@@ -9,4 +9,3 @@ F:\ASP.Net Core 5 آموزش\Project\Code\LampShade\0_Framwork\obj\Debug\net6.0\
 F:\ASP.Net Core 5 آموزش\Project\Code\LampShade\0_Framwork\obj\Debug\net6.0\0_Framwork.dll
 F:\ASP.Net Core 5 آموزش\Project\Code\LampShade\0_Framwork\obj\Debug\net6.0\ref\0_Framwork.dll
 F:\ASP.Net Core 5 آموزش\Project\Code\LampShade\0_Framwork\obj\Debug\net6.0\0_Framwork.pdb
-F:\ASP.Net Core 5 آموزش\Project\Code\LampShade\0_Framwork\obj\Debug\net6.0\0_Framwork.csproj.AssemblyReference.cache

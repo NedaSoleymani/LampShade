@@ -14,7 +14,8 @@ namespace ShopManagement.Domain.ProductCategoryAgg
         //ProductCategory Get(long id);
         //bool Exists(Expression<Func<ProductCategory, bool>> expression);
         //List<ProductCategory> GetAll();
-        EditProductCategory GetDetail(long id);
+        List<ProductCategoryViewModel> GetProductCategories();
+       EditProductCategory GetDetail(long id);
         List<ProductCategoryViewModel> Search(ProductCategorySerachModel searchModel);
        
     }

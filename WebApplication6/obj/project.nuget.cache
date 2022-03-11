@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "WE2IXNqnamnuV04NfcxRcNw7XIOxpwUOdcx4Gm5+tm6r0QCZs1sBXDKzLAE7M/OHuT/YMPGsETYqQvCda498BQ==",
+  "success": true,
+  "projectFilePath": "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\WebApplication6\\BlogManagement.Presentation.Api.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Lyanna\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\Lyanna\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\Lyanna\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "C:\\Users\\Lyanna\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "C:\\Users\\Lyanna\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "C:\\Users\\Lyanna\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+  ],
+  "logs": []
+}

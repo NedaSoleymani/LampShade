@@ -70,7 +70,72 @@
       "ProjectGuid": "4da19a85-8c59-4cc3-802e-5708f73c715f",
       "DisplayName": "ServiceHost",
       "ColorIndex": 12
+    },
+    "11ae3ba7-6959-453c-9d7c-6747a0f1c460": {
+      "ProjectGuid": "11ae3ba7-6959-453c-9d7c-6747a0f1c460",
+      "DisplayName": "ShopManagement.Presentation.Api",
+      "ColorIndex": 13
+    },
+    "ec1e5fe1-cfa9-4982-a915-2a1b82f49463": {
+      "ProjectGuid": "ec1e5fe1-cfa9-4982-a915-2a1b82f49463",
+      "DisplayName": "InventoryManagement.Presentation.Api",
+      "ColorIndex": 14
+    },
+    "a65b7e05-2bc2-44b0-ae64-18fee8acb4c3": {
+      "ProjectGuid": "a65b7e05-2bc2-44b0-ae64-18fee8acb4c3",
+      "DisplayName": "BM.Presentation",
+      "ColorIndex": 15
+    },
+    "8767330f-d8e3-4afb-af78-cf30d2e2e67f": {
+      "ProjectGuid": "8767330f-d8e3-4afb-af78-cf30d2e2e67f",
+      "DisplayName": "WebApplication1",
+      "ColorIndex": 0
+    },
+    "de5ffc99-ab09-4958-bee9-0ec296b02ca8": {
+      "ProjectGuid": "de5ffc99-ab09-4958-bee9-0ec296b02ca8",
+      "DisplayName": "BlogManagement.Presentation.Api",
+      "ColorIndex": 1
+    },
+    "a86344bb-87d8-4d9c-b95f-1328693c1048": {
+      "ProjectGuid": "a86344bb-87d8-4d9c-b95f-1328693c1048",
+      "DisplayName": "WebApplication4",
+      "ColorIndex": 2
+    },
+    "84a8bc6a-1051-49ea-a595-f1c43e65f83c": {
+      "ProjectGuid": "84a8bc6a-1051-49ea-a595-f1c43e65f83c",
+      "DisplayName": "WebApplication5",
+      "ColorIndex": 3
+    },
+    "c9231687-a34a-44af-8ec3-8776e6f56bc5": {
+      "ProjectGuid": "c9231687-a34a-44af-8ec3-8776e6f56bc5",
+      "DisplayName": "BlogManagement.Presentation.Api",
+      "ColorIndex": 4
+    },
+    "19fa417e-7014-46fe-849c-038e7448b39e": {
+      "ProjectGuid": "19fa417e-7014-46fe-849c-038e7448b39e",
+      "DisplayName": "InventoryManagment.Application.Contract",
+      "ColorIndex": 5
+    },
+    "35f53273-762b-4984-b2e8-26f76e8f15bf": {
+      "ProjectGuid": "35f53273-762b-4984-b2e8-26f76e8f15bf",
+      "DisplayName": "01_LampshadeQuery",
+      "ColorIndex": 6
+    },
+    "63d0e9b3-af5a-4a03-8c23-119c7cd51d37": {
+      "ProjectGuid": "63d0e9b3-af5a-4a03-8c23-119c7cd51d37",
+      "DisplayName": "InventoryManagment.Infrastructure.EFCore",
+      "ColorIndex": 7
+    },
+    "987b0b53-61f5-4284-b2ec-1060bbb9e5c9": {
+      "ProjectGuid": "987b0b53-61f5-4284-b2ec-1060bbb9e5c9",
+      "DisplayName": "InventoryManagment.Domain",
+      "ColorIndex": 8
+    },
+    "56c4d197-e8b3-44e6-af4e-25b6d5983c72": {
+      "ProjectGuid": "56c4d197-e8b3-44e6-af4e-25b6d5983c72",
+      "DisplayName": "InventoryManagment.Infrastructure.Configuration",
+      "ColorIndex": 9
     }
   },
-  "NextColorIndex": 13
+  "NextColorIndex": 10
 }
