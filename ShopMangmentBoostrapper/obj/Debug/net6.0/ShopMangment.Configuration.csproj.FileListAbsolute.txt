@@ -21,3 +21,9 @@ F:\ASP.Net Core 5 آموزش\Project\Code\LampShade\ShopMangmentBoostrapper\obj\
 F:\ASP.Net Core 5 آموزش\Project\Code\LampShade\ShopMangmentBoostrapper\obj\Debug\net6.0\ShopMangment.Configuration.dll
 F:\ASP.Net Core 5 آموزش\Project\Code\LampShade\ShopMangmentBoostrapper\obj\Debug\net6.0\ref\ShopMangment.Configuration.dll
 F:\ASP.Net Core 5 آموزش\Project\Code\LampShade\ShopMangmentBoostrapper\obj\Debug\net6.0\ShopMangment.Configuration.pdb
+F:\ASP.Net Core 5 آموزش\Project\Code\LampShade\ShopMangmentBoostrapper\bin\Debug\net6.0\01_LampshadeQuery.dll
+F:\ASP.Net Core 5 آموزش\Project\Code\LampShade\ShopMangmentBoostrapper\bin\Debug\net6.0\InventoryManagment.Domain.dll
+F:\ASP.Net Core 5 آموزش\Project\Code\LampShade\ShopMangmentBoostrapper\bin\Debug\net6.0\InventoryManagment.Infrastructure.EFCore.dll
+F:\ASP.Net Core 5 آموزش\Project\Code\LampShade\ShopMangmentBoostrapper\bin\Debug\net6.0\01_LampshadeQuery.pdb
+F:\ASP.Net Core 5 آموزش\Project\Code\LampShade\ShopMangmentBoostrapper\bin\Debug\net6.0\InventoryManagment.Domain.pdb
+F:\ASP.Net Core 5 آموزش\Project\Code\LampShade\ShopMangmentBoostrapper\bin\Debug\net6.0\InventoryManagment.Infrastructure.EFCore.pdb

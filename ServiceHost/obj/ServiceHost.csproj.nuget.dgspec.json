@@ -865,6 +865,9 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
+              "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\01_LampshadeQuery\\01_LampshadeQuery.csproj": {
+                "projectPath": "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\01_LampshadeQuery\\01_LampshadeQuery.csproj"
+              },
               "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\ShopManagment.Application\\ShopManagment.Application.csproj": {
                 "projectPath": "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\ShopManagment.Application\\ShopManagment.Application.csproj"
               },

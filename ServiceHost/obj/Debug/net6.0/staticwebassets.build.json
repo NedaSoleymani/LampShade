@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "9OFKCFiTQoSosTQpuEfBtx4PHqOyEjeM6uJgSFdbOfo=",
+  "Hash": "n6Jak4RWmpGNfwi6mpmf4VLTecqdq3pBArIpf0GWEz0=",
   "Source": "ServiceHost",
   "BasePath": "_content/ServiceHost",
   "Mode": "Default",
@@ -6596,6 +6596,23 @@
       "OriginalItemSpec": "wwwroot\\Theme\\assets\\img\\category\\img1-top-eposi1.jpg"
     },
     {
+      "Identity": "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\ServiceHost\\wwwroot\\Theme\\assets\\img\\category\\img2-top-eposi1.jpg",
+      "SourceId": "ServiceHost",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\ServiceHost\\wwwroot\\",
+      "BasePath": "_content/ServiceHost",
+      "RelativePath": "Theme/assets/img/category/img2-top-eposi1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Theme\\assets\\img\\category\\img2-top-eposi1.jpg"
+    },
+    {
       "Identity": "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\ServiceHost\\wwwroot\\Theme\\assets\\img\\category\\img2-top-eposi1.png",
       "SourceId": "ServiceHost",
       "SourceType": "Discovered",
@@ -6628,6 +6645,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Theme\\assets\\img\\category\\img3-top-eposi1.jpg"
+    },
+    {
+      "Identity": "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\ServiceHost\\wwwroot\\Theme\\assets\\img\\category\\img4-top-eposi1.jpg",
+      "SourceId": "ServiceHost",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\ServiceHost\\wwwroot\\",
+      "BasePath": "_content/ServiceHost",
+      "RelativePath": "Theme/assets/img/category/img4-top-eposi1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Theme\\assets\\img\\category\\img4-top-eposi1.jpg"
     },
     {
       "Identity": "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\ServiceHost\\wwwroot\\Theme\\assets\\img\\favicon.ico",

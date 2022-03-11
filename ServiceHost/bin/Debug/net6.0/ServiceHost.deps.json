@@ -3240,6 +3240,7 @@
       },
       "ShopMangment.Configuration/1.0.0": {
         "dependencies": {
+          "01_LampshadeQuery": "1.0.0",
           "ShopManagment.Application": "1.0.0",
           "ShopManagment.Infrastructure.EFCore": "1.0.0"
         },
