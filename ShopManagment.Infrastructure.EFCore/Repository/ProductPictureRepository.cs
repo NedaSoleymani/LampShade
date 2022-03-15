@@ -1,4 +1,5 @@
-﻿using _0_Framwork.Infrastructure;
+﻿using _0_Framework.Application;
+using _0_Framwork.Infrastructure;
 using Microsoft.EntityFrameworkCore;
 using ShopManagement.Domain.ProductPictureAgg;
 using ShopManagment.Application.Contracts.ProductPicture;
@@ -39,7 +40,7 @@ namespace ShopManagment.Infrastructure.EFCore.Repository
                 {
                     Id = x.Id,
                     Product = x.Product.Name,
-                    CreationDate = x.CreationDate.ToString(),
+                    CreationDate = x.CreationDate.ToFarsi(),
                     Picture = x.Picture,
                     ProductId=x.ProductId,
                     IsRemoved=x.IsRemoved

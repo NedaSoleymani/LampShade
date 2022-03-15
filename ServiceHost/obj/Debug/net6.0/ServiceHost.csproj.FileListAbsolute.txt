@@ -583,3 +583,13 @@ F:\ASP.Net Core 5 آموزش\Project\Code\LampShade\ServiceHost\bin\Debug\net6.0
 F:\ASP.Net Core 5 آموزش\Project\Code\LampShade\ServiceHost\bin\Debug\net6.0\InventoryManagment.Application.Contract.pdb
 F:\ASP.Net Core 5 آموزش\Project\Code\LampShade\ServiceHost\bin\Debug\net6.0\InventoryManagment.Domain.pdb
 F:\ASP.Net Core 5 آموزش\Project\Code\LampShade\ServiceHost\bin\Debug\net6.0\InventoryManagment.Infrastructure.EFCore.pdb
+F:\ASP.Net Core 5 آموزش\Project\Code\LampShade\ServiceHost\bin\Debug\net6.0\DiscountManagement.Application.dll
+F:\ASP.Net Core 5 آموزش\Project\Code\LampShade\ServiceHost\bin\Debug\net6.0\DiscountManagement.Configuration.dll
+F:\ASP.Net Core 5 آموزش\Project\Code\LampShade\ServiceHost\bin\Debug\net6.0\DiscountManagement.Domain.dll
+F:\ASP.Net Core 5 آموزش\Project\Code\LampShade\ServiceHost\bin\Debug\net6.0\DiscountManagement.Infrastructure.EFCore.dll
+F:\ASP.Net Core 5 آموزش\Project\Code\LampShade\ServiceHost\bin\Debug\net6.0\DiscountManagment.Application.Contract.dll
+F:\ASP.Net Core 5 آموزش\Project\Code\LampShade\ServiceHost\bin\Debug\net6.0\DiscountManagement.Configuration.pdb
+F:\ASP.Net Core 5 آموزش\Project\Code\LampShade\ServiceHost\bin\Debug\net6.0\DiscountManagement.Application.pdb
+F:\ASP.Net Core 5 آموزش\Project\Code\LampShade\ServiceHost\bin\Debug\net6.0\DiscountManagement.Domain.pdb
+F:\ASP.Net Core 5 آموزش\Project\Code\LampShade\ServiceHost\bin\Debug\net6.0\DiscountManagement.Infrastructure.EFCore.pdb
+F:\ASP.Net Core 5 آموزش\Project\Code\LampShade\ServiceHost\bin\Debug\net6.0\DiscountManagment.Application.Contract.pdb

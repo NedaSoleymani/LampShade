@@ -1,3 +1,4 @@
+using DiscountManagement.Configuration;
 using InventoryManagement.Presentation.Api;
 using ShopManagement.Presentation.Api.Controller;
 using ShopMangment.Configuration;
@@ -9,6 +10,8 @@ var builder = WebApplication.CreateBuilder(args);
 
 var connectionString = builder.Configuration.GetConnectionString("LampShadeDb");
 ShopMangmentBoostrapper.Configure(builder.Services, connectionString);
+DiscountManagementBootstrapper.Configure(builder.Services, connectionString);
+
 //builder.Services.AddTransient<IFileUploader, FileUploader>();
 //builder.Services.AddTransient<IAuthHelper, AuthHelper>();
 
