@@ -51,7 +51,7 @@ namespace DiscountManagement.Application
 
         public EditColleagueDiscount GetDetails(long id)
         {
-            throw new NotImplementedException();
+            return _colleagueDiscountRepository.GetDetails(id);
         }
 
         public OperationResult Remove(long id)

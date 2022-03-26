@@ -44,7 +44,7 @@ $(document).ready(function () {
     $(document).on("submit",
         'form[data-ajax="true"]',
         function (e) {
-            e.preventDefault();
+            e.preventDefault();//کنسل همه متغیرها و عملیات 
             var form = $(this);
             const method = form.attr("method").toLocaleLowerCase();
             const url = form.attr("action");
@@ -65,8 +65,8 @@ $(document).ready(function () {
                     data: formData,
                     enctype: "multipart/form-data",
                     dataType: "json",
-                    processData: false,
-                    contentType: false,
+                    processData: false,//روی داده پروسس نشه
+                    contentType: false,//گیر ندادن به نوع داده
                     success: function (data) {
                         CallBackHandler(data, action, form);
                     },

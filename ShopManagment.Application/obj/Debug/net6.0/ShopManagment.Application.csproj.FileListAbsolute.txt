@@ -17,3 +17,5 @@ F:\ASP.Net Core 5 آموزش\Project\Code\LampShade\ShopManagment.Application\ob
 F:\ASP.Net Core 5 آموزش\Project\Code\LampShade\ShopManagment.Application\obj\Debug\net6.0\ShopManagment.Application.dll
 F:\ASP.Net Core 5 آموزش\Project\Code\LampShade\ShopManagment.Application\obj\Debug\net6.0\ref\ShopManagment.Application.dll
 F:\ASP.Net Core 5 آموزش\Project\Code\LampShade\ShopManagment.Application\obj\Debug\net6.0\ShopManagment.Application.pdb
+F:\ASP.Net Core 5 آموزش\Project\Code\LampShade\ShopManagment.Application\bin\Debug\net6.0\ShopManagment.Infrastructure.EFCore.dll
+F:\ASP.Net Core 5 آموزش\Project\Code\LampShade\ShopManagment.Application\bin\Debug\net6.0\ShopManagment.Infrastructure.EFCore.pdb

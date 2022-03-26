@@ -107,6 +107,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Http.Features": {
+              "target": "Package",
+              "version": "[5.0.15, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[6.0.2, )"
@@ -305,6 +313,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Http": {
+              "target": "Package",
+              "version": "[2.2.2, )"
+            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
@@ -373,6 +385,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Http.Features": {
+              "target": "Package",
+              "version": "[5.0.15, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -424,6 +442,9 @@
               },
               "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\ShopManagment.Application.Contracts\\ShopManagment.Application.Contracts.csproj": {
                 "projectPath": "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\ShopManagment.Application.Contracts\\ShopManagment.Application.Contracts.csproj"
+              },
+              "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\ShopManagment.Infrastructure.EFCore\\ShopManagment.Infrastructure.EFCore.csproj": {
+                "projectPath": "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\ShopManagment.Infrastructure.EFCore\\ShopManagment.Infrastructure.EFCore.csproj"
               }
             }
           }

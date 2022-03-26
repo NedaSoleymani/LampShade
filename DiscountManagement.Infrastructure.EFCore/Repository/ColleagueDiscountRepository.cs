@@ -39,6 +39,7 @@ namespace DiscountManagement.Infrastructure.EFCore.Repository
                 Id = x.Id,
                 DiscountRate = x.DiscountRate,
                 ProductId = x.ProductId,
+                IsRemoved=x.IsRemoved
             });
 
             if (searchModel.ProductId > 0)

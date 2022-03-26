@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using ShopManagment.Application.Contracts.Product;
-using ShopManagment.Application.Contracts.ProductCategory;
+
 
 namespace ServiceHost.Areas.Administration.Pages.Discounts.CustomerDiscounts
 {
@@ -18,6 +18,7 @@ namespace ServiceHost.Areas.Administration.Pages.Discounts.CustomerDiscounts
 
         private readonly ICustomerDiscountApplication _customerDiscountsApplication;
         private readonly IProductApplication _productApplication;
+
         public IndexModel(ICustomerDiscountApplication customerDiscountApplication, IProductApplication productApplication)
         {
             _productApplication = productApplication;

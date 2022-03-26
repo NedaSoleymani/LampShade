@@ -27,4 +27,8 @@
     <ProjectReference Include="..\ShopMangmentBoostrapper\ShopMangment.Configuration.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="wwwroot\ProductPictures\" />
+  </ItemGroup>
+
 </Project>

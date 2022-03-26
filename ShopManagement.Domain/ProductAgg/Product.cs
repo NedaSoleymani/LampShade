@@ -58,7 +58,10 @@ namespace ShopManagement.Domain.ProductAgg
             UnitPrice = unitPrice;
             ShortDescription = shortDescription;
             Description = description;
+
+            if(!string.IsNullOrWhiteSpace(Picture))
             Picture = picture;
+
             PictureAlt = pictureAlt;
             PictureTitle = pictureTitle;
             Slug = slug;

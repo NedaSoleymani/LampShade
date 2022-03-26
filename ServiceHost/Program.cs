@@ -1,5 +1,7 @@
+using _0_Framework.Application;
 using DiscountManagement.Configuration;
 using InventoryManagement.Presentation.Api;
+using ServiceHost;
 using ShopManagement.Presentation.Api.Controller;
 using ShopMangment.Configuration;
 
@@ -12,7 +14,7 @@ var connectionString = builder.Configuration.GetConnectionString("LampShadeDb");
 ShopMangmentBoostrapper.Configure(builder.Services, connectionString);
 DiscountManagementBootstrapper.Configure(builder.Services, connectionString);
 
-//builder.Services.AddTransient<IFileUploader, FileUploader>();
+ builder.Services.AddTransient<IFileUploader, FileUploader>();
 //builder.Services.AddTransient<IAuthHelper, AuthHelper>();
 
 builder.Services.AddCors(options => options.AddPolicy("MyPolicy", builder =>
