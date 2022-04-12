@@ -15,6 +15,8 @@
 </head>
 
 <body>
+
+ 
     <!--====================  header area ====================-->
     <div class="header-area header-sticky">
         <div class="container">
@@ -318,7 +320,9 @@
         </div>
     </div>
     <!--====================  End of header area  ====================-->
+    @*  @await Component.InvokeAsync("Menu")*@
     @RenderBody()
+     @* @await Component.InvokeAsync("Footer")*@
     <!--====================  footer area ====================-->
     <div class="footer-area">
         <div class="footer-copyright">

@@ -1,6 +1,9 @@
 using _0_Framework.Application;
+using _0_Framwork.Application;
+using AccountManagement.Configuration;
 using DiscountManagement.Configuration;
 using InventoryManagement.Presentation.Api;
+using Microsoft.AspNetCore.Authentication.Cookies;
 using ServiceHost;
 using ShopManagement.Presentation.Api.Controller;
 using ShopMangment.Configuration;
@@ -9,13 +12,32 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 //builder.Services.AddRazorPages();
+builder.Services.AddHttpContextAccessor();
+//builder.Services.AddScoped<IHttpContextAccessor, HttpContextAccessor>();
 
 var connectionString = builder.Configuration.GetConnectionString("LampShadeDb");
 ShopMangmentBoostrapper.Configure(builder.Services, connectionString);
 DiscountManagementBootstrapper.Configure(builder.Services, connectionString);
+AccountManagementBootstrapper.Configure(builder.Services, connectionString);
 
- builder.Services.AddTransient<IFileUploader, FileUploader>();
-//builder.Services.AddTransient<IAuthHelper, AuthHelper>();
+builder.Services.Configure<CookiePolicyOptions>(options =>
+{
+    options.CheckConsentNeeded = context => true;
+    options.MinimumSameSitePolicy = SameSiteMode.Lax;
+});
+
+builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
+    .AddCookie(CookieAuthenticationDefaults.AuthenticationScheme, o =>
+    {
+        o.LoginPath = new PathString("/Account");
+        o.LogoutPath = new PathString("/Account");
+        o.AccessDeniedPath = new PathString("/AccessDenied");
+    });
+
+
+builder.Services.AddTransient<IFileUploader, FileUploader>();
+builder.Services.AddTransient<IPasswordHasher, PasswordHasher>();
+builder.Services.AddTransient<IAuthHelper, AuthHelper>();
 
 builder.Services.AddCors(options => options.AddPolicy("MyPolicy", builder =>
    builder.WithOrigins("https://localhost:")
@@ -42,9 +64,10 @@ if (!app.Environment.IsDevelopment())
     app.UseHsts();
 }
 
+app.UseAuthentication();
 app.UseHttpsRedirection();
 app.UseStaticFiles();
-
+app.UseCookiePolicy();
 app.UseRouting();
 
 app.UseAuthorization();

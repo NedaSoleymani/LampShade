@@ -1,21 +1,18 @@
 {
   "format": 1,
   "restore": {
-    "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\ShopManagement.Presentaton.Api\\ShopManagement.Presentation.Api.csproj": {}
+    "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\ShopManagement.Presentaton.Api\\ShopManagement.Presentation.Api.csproj": {}
   },
   "projects": {
-    "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\ShopManagement.Presentaton.Api\\ShopManagement.Presentation.Api.csproj": {
+    "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\ShopManagement.Presentaton.Api\\ShopManagement.Presentation.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\ShopManagement.Presentaton.Api\\ShopManagement.Presentation.Api.csproj",
+        "projectUniqueName": "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\ShopManagement.Presentaton.Api\\ShopManagement.Presentation.Api.csproj",
         "projectName": "ShopManagement.Presentation.Api",
-        "projectPath": "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\ShopManagement.Presentaton.Api\\ShopManagement.Presentation.Api.csproj",
+        "projectPath": "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\ShopManagement.Presentaton.Api\\ShopManagement.Presentation.Api.csproj",
         "packagesPath": "C:\\Users\\Lyanna\\.nuget\\packages\\",
-        "outputPath": "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\ShopManagement.Presentaton.Api\\obj\\",
+        "outputPath": "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\ShopManagement.Presentaton.Api\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
           "C:\\Users\\Lyanna\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -63,7 +60,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

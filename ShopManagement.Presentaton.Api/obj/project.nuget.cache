@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3bJnfP2C5pY7c4ThKzeFS3tCLKtjQSHFOEZqzJxD6huXDZTxsaU1qvOHxrlrSkps8+0PTnZUJNDkHszoeWorkQ==",
+  "dgSpecHash": "rAOKLzLZ7SyJf4FbnNvGzIbu60GLf5A4Bbx/3DlYoZoXjRePtbr/cpy1BIATnoFfPhzXvYDo7413gFVVXiSBBg==",
   "success": true,
-  "projectFilePath": "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\ShopManagement.Presentaton.Api\\ShopManagement.Presentation.Api.csproj",
+  "projectFilePath": "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\ShopManagement.Presentaton.Api\\ShopManagement.Presentation.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Lyanna\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\Lyanna\\.nuget\\packages\\microsoft.aspnetcore.authentication.core\\2.2.0\\microsoft.aspnetcore.authentication.core.2.2.0.nupkg.sha512",

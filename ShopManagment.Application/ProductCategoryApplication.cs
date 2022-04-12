@@ -30,10 +30,10 @@ namespace ShopManagment.Application
 
             var slug = command.Slug.Slugify();
             var picturePath = $"{command.Slug}";
-            var fileName = _fileUploader.Upload(command.Picture, picturePath);
+            var pictureName = _fileUploader.Upload(command.Picture, picturePath);
 
             var productCategory = new ProductCategory(
-                 command.Name, command.Description, fileName, command.MetaDescription,
+                 command.Name, command.Description, pictureName, command.MetaDescription,
                  command.PictureAlt, command.PictureTitle, command.Keywords, slug
                 );
 

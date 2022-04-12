@@ -1,21 +1,18 @@
 {
   "format": 1,
   "restore": {
-    "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\InventoryManagment.Infrastructure.Configuration\\InventoryManagment.Infrastructure.Configuration.csproj": {}
+    "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\InventoryManagment.Infrastructure.Configuration\\InventoryManagment.Infrastructure.Configuration.csproj": {}
   },
   "projects": {
-    "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\01_LampshadeQuery\\01_LampshadeQuery.csproj": {
+    "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\01_LampshadeQuery\\01_LampshadeQuery.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\01_LampshadeQuery\\01_LampshadeQuery.csproj",
+        "projectUniqueName": "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\01_LampshadeQuery\\01_LampshadeQuery.csproj",
         "projectName": "01_LampshadeQuery",
-        "projectPath": "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\01_LampshadeQuery\\01_LampshadeQuery.csproj",
+        "projectPath": "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\01_LampshadeQuery\\01_LampshadeQuery.csproj",
         "packagesPath": "C:\\Users\\Lyanna\\.nuget\\packages\\",
-        "outputPath": "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\01_LampshadeQuery\\obj\\",
+        "outputPath": "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\01_LampshadeQuery\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
           "C:\\Users\\Lyanna\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -31,11 +28,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\InventoryManagment.Infrastructure.EFCore\\InventoryManagment.Infrastructure.EFCore.csproj": {
-                "projectPath": "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\InventoryManagment.Infrastructure.EFCore\\InventoryManagment.Infrastructure.EFCore.csproj"
+              "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\InventoryManagment.Infrastructure.EFCore\\InventoryManagment.Infrastructure.EFCore.csproj": {
+                "projectPath": "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\InventoryManagment.Infrastructure.EFCore\\InventoryManagment.Infrastructure.EFCore.csproj"
               },
-              "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\ShopManagment.Infrastructure.EFCore\\ShopManagment.Infrastructure.EFCore.csproj": {
-                "projectPath": "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\ShopManagment.Infrastructure.EFCore\\ShopManagment.Infrastructure.EFCore.csproj"
+              "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\ShopManagment.Infrastructure.EFCore\\ShopManagment.Infrastructure.EFCore.csproj": {
+                "projectPath": "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\ShopManagment.Infrastructure.EFCore\\ShopManagment.Infrastructure.EFCore.csproj"
               }
             }
           }
@@ -64,22 +61,19 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\0_Framwork\\0_Framwork.csproj": {
+    "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\0_Framwork\\0_Framwork.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\0_Framwork\\0_Framwork.csproj",
+        "projectUniqueName": "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\0_Framwork\\0_Framwork.csproj",
         "projectName": "0_Framwork",
-        "projectPath": "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\0_Framwork\\0_Framwork.csproj",
+        "projectPath": "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\0_Framwork\\0_Framwork.csproj",
         "packagesPath": "C:\\Users\\Lyanna\\.nuget\\packages\\",
-        "outputPath": "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\0_Framwork\\obj\\",
+        "outputPath": "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\0_Framwork\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
           "C:\\Users\\Lyanna\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -107,6 +101,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.Cookies": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
             "Microsoft.AspNetCore.Http.Features": {
               "target": "Package",
               "version": "[5.0.15, )"
@@ -118,6 +116,10 @@
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[6.0.2, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
             }
           },
           "imports": [
@@ -135,22 +137,19 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\InventoryManagment.Domain\\InventoryManagment.Domain.csproj": {
+    "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\InventoryManagment.Domain\\InventoryManagment.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\InventoryManagment.Domain\\InventoryManagment.Domain.csproj",
+        "projectUniqueName": "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\InventoryManagment.Domain\\InventoryManagment.Domain.csproj",
         "projectName": "InventoryManagment.Domain",
-        "projectPath": "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\InventoryManagment.Domain\\InventoryManagment.Domain.csproj",
+        "projectPath": "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\InventoryManagment.Domain\\InventoryManagment.Domain.csproj",
         "packagesPath": "C:\\Users\\Lyanna\\.nuget\\packages\\",
-        "outputPath": "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\InventoryManagment.Domain\\obj\\",
+        "outputPath": "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\InventoryManagment.Domain\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
           "C:\\Users\\Lyanna\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -166,8 +165,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\0_Framwork\\0_Framwork.csproj": {
-                "projectPath": "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\0_Framwork\\0_Framwork.csproj"
+              "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\0_Framwork\\0_Framwork.csproj": {
+                "projectPath": "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\0_Framwork\\0_Framwork.csproj"
               }
             }
           }
@@ -196,22 +195,19 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\InventoryManagment.Infrastructure.Configuration\\InventoryManagment.Infrastructure.Configuration.csproj": {
+    "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\InventoryManagment.Infrastructure.Configuration\\InventoryManagment.Infrastructure.Configuration.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\InventoryManagment.Infrastructure.Configuration\\InventoryManagment.Infrastructure.Configuration.csproj",
+        "projectUniqueName": "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\InventoryManagment.Infrastructure.Configuration\\InventoryManagment.Infrastructure.Configuration.csproj",
         "projectName": "InventoryManagment.Infrastructure.Configuration",
-        "projectPath": "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\InventoryManagment.Infrastructure.Configuration\\InventoryManagment.Infrastructure.Configuration.csproj",
+        "projectPath": "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\InventoryManagment.Infrastructure.Configuration\\InventoryManagment.Infrastructure.Configuration.csproj",
         "packagesPath": "C:\\Users\\Lyanna\\.nuget\\packages\\",
-        "outputPath": "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\InventoryManagment.Infrastructure.Configuration\\obj\\",
+        "outputPath": "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\InventoryManagment.Infrastructure.Configuration\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
           "C:\\Users\\Lyanna\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -227,8 +223,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\01_LampshadeQuery\\01_LampshadeQuery.csproj": {
-                "projectPath": "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\01_LampshadeQuery\\01_LampshadeQuery.csproj"
+              "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\01_LampshadeQuery\\01_LampshadeQuery.csproj": {
+                "projectPath": "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\01_LampshadeQuery\\01_LampshadeQuery.csproj"
               }
             }
           }
@@ -257,22 +253,19 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\InventoryManagment.Infrastructure.EFCore\\InventoryManagment.Infrastructure.EFCore.csproj": {
+    "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\InventoryManagment.Infrastructure.EFCore\\InventoryManagment.Infrastructure.EFCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\InventoryManagment.Infrastructure.EFCore\\InventoryManagment.Infrastructure.EFCore.csproj",
+        "projectUniqueName": "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\InventoryManagment.Infrastructure.EFCore\\InventoryManagment.Infrastructure.EFCore.csproj",
         "projectName": "InventoryManagment.Infrastructure.EFCore",
-        "projectPath": "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\InventoryManagment.Infrastructure.EFCore\\InventoryManagment.Infrastructure.EFCore.csproj",
+        "projectPath": "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\InventoryManagment.Infrastructure.EFCore\\InventoryManagment.Infrastructure.EFCore.csproj",
         "packagesPath": "C:\\Users\\Lyanna\\.nuget\\packages\\",
-        "outputPath": "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\InventoryManagment.Infrastructure.EFCore\\obj\\",
+        "outputPath": "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\InventoryManagment.Infrastructure.EFCore\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
           "C:\\Users\\Lyanna\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -288,8 +281,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\InventoryManagment.Domain\\InventoryManagment.Domain.csproj": {
-                "projectPath": "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\InventoryManagment.Domain\\InventoryManagment.Domain.csproj"
+              "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\InventoryManagment.Domain\\InventoryManagment.Domain.csproj": {
+                "projectPath": "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\InventoryManagment.Domain\\InventoryManagment.Domain.csproj"
               }
             }
           }
@@ -324,22 +317,19 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\ShopManagement.Domain\\ShopManagement.Domain.csproj": {
+    "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\ShopManagement.Domain\\ShopManagement.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\ShopManagement.Domain\\ShopManagement.Domain.csproj",
+        "projectUniqueName": "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\ShopManagement.Domain\\ShopManagement.Domain.csproj",
         "projectName": "ShopManagement.Domain",
-        "projectPath": "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\ShopManagement.Domain\\ShopManagement.Domain.csproj",
+        "projectPath": "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\ShopManagement.Domain\\ShopManagement.Domain.csproj",
         "packagesPath": "C:\\Users\\Lyanna\\.nuget\\packages\\",
-        "outputPath": "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\ShopManagement.Domain\\obj\\",
+        "outputPath": "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\ShopManagement.Domain\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
           "C:\\Users\\Lyanna\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -355,11 +345,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\0_Framwork\\0_Framwork.csproj": {
-                "projectPath": "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\0_Framwork\\0_Framwork.csproj"
+              "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\0_Framwork\\0_Framwork.csproj": {
+                "projectPath": "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\0_Framwork\\0_Framwork.csproj"
               },
-              "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\ShopManagment.Application.Contracts\\ShopManagment.Application.Contracts.csproj": {
-                "projectPath": "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\ShopManagment.Application.Contracts\\ShopManagment.Application.Contracts.csproj"
+              "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\ShopManagment.Application.Contracts\\ShopManagment.Application.Contracts.csproj": {
+                "projectPath": "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\ShopManagment.Application.Contracts\\ShopManagment.Application.Contracts.csproj"
               }
             }
           }
@@ -400,22 +390,19 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\ShopManagment.Application.Contracts\\ShopManagment.Application.Contracts.csproj": {
+    "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\ShopManagment.Application.Contracts\\ShopManagment.Application.Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\ShopManagment.Application.Contracts\\ShopManagment.Application.Contracts.csproj",
+        "projectUniqueName": "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\ShopManagment.Application.Contracts\\ShopManagment.Application.Contracts.csproj",
         "projectName": "ShopManagment.Application.Contracts",
-        "projectPath": "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\ShopManagment.Application.Contracts\\ShopManagment.Application.Contracts.csproj",
+        "projectPath": "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\ShopManagment.Application.Contracts\\ShopManagment.Application.Contracts.csproj",
         "packagesPath": "C:\\Users\\Lyanna\\.nuget\\packages\\",
-        "outputPath": "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\ShopManagment.Application.Contracts\\obj\\",
+        "outputPath": "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\ShopManagment.Application.Contracts\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
           "C:\\Users\\Lyanna\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -431,8 +418,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\0_Framwork\\0_Framwork.csproj": {
-                "projectPath": "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\0_Framwork\\0_Framwork.csproj"
+              "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\0_Framwork\\0_Framwork.csproj": {
+                "projectPath": "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\0_Framwork\\0_Framwork.csproj"
               }
             }
           }
@@ -467,22 +454,19 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\ShopManagment.Infrastructure.EFCore\\ShopManagment.Infrastructure.EFCore.csproj": {
+    "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\ShopManagment.Infrastructure.EFCore\\ShopManagment.Infrastructure.EFCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\ShopManagment.Infrastructure.EFCore\\ShopManagment.Infrastructure.EFCore.csproj",
+        "projectUniqueName": "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\ShopManagment.Infrastructure.EFCore\\ShopManagment.Infrastructure.EFCore.csproj",
         "projectName": "ShopManagment.Infrastructure.EFCore",
-        "projectPath": "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\ShopManagment.Infrastructure.EFCore\\ShopManagment.Infrastructure.EFCore.csproj",
+        "projectPath": "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\ShopManagment.Infrastructure.EFCore\\ShopManagment.Infrastructure.EFCore.csproj",
         "packagesPath": "C:\\Users\\Lyanna\\.nuget\\packages\\",
-        "outputPath": "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\ShopManagment.Infrastructure.EFCore\\obj\\",
+        "outputPath": "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\ShopManagment.Infrastructure.EFCore\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
           "C:\\Users\\Lyanna\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -498,8 +482,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\ShopManagement.Domain\\ShopManagement.Domain.csproj": {
-                "projectPath": "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\ShopManagement.Domain\\ShopManagement.Domain.csproj"
+              "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\ShopManagement.Domain\\ShopManagement.Domain.csproj": {
+                "projectPath": "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\ShopManagement.Domain\\ShopManagement.Domain.csproj"
               }
             }
           }
@@ -550,7 +534,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

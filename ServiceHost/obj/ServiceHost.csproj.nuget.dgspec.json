@@ -1,21 +1,18 @@
 {
   "format": 1,
   "restore": {
-    "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\ServiceHost\\ServiceHost.csproj": {}
+    "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\ServiceHost\\ServiceHost.csproj": {}
   },
   "projects": {
-    "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\01_LampshadeQuery\\01_LampshadeQuery.csproj": {
+    "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\01_LampshadeQuery\\01_LampshadeQuery.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\01_LampshadeQuery\\01_LampshadeQuery.csproj",
+        "projectUniqueName": "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\01_LampshadeQuery\\01_LampshadeQuery.csproj",
         "projectName": "01_LampshadeQuery",
-        "projectPath": "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\01_LampshadeQuery\\01_LampshadeQuery.csproj",
+        "projectPath": "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\01_LampshadeQuery\\01_LampshadeQuery.csproj",
         "packagesPath": "C:\\Users\\Lyanna\\.nuget\\packages\\",
-        "outputPath": "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\01_LampshadeQuery\\obj\\",
+        "outputPath": "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\01_LampshadeQuery\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
           "C:\\Users\\Lyanna\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -31,11 +28,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\InventoryManagment.Infrastructure.EFCore\\InventoryManagment.Infrastructure.EFCore.csproj": {
-                "projectPath": "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\InventoryManagment.Infrastructure.EFCore\\InventoryManagment.Infrastructure.EFCore.csproj"
+              "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\InventoryManagment.Infrastructure.EFCore\\InventoryManagment.Infrastructure.EFCore.csproj": {
+                "projectPath": "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\InventoryManagment.Infrastructure.EFCore\\InventoryManagment.Infrastructure.EFCore.csproj"
               },
-              "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\ShopManagment.Infrastructure.EFCore\\ShopManagment.Infrastructure.EFCore.csproj": {
-                "projectPath": "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\ShopManagment.Infrastructure.EFCore\\ShopManagment.Infrastructure.EFCore.csproj"
+              "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\ShopManagment.Infrastructure.EFCore\\ShopManagment.Infrastructure.EFCore.csproj": {
+                "projectPath": "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\ShopManagment.Infrastructure.EFCore\\ShopManagment.Infrastructure.EFCore.csproj"
               }
             }
           }
@@ -64,22 +61,19 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\0_Framwork\\0_Framwork.csproj": {
+    "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\0_Framwork\\0_Framwork.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\0_Framwork\\0_Framwork.csproj",
+        "projectUniqueName": "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\0_Framwork\\0_Framwork.csproj",
         "projectName": "0_Framwork",
-        "projectPath": "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\0_Framwork\\0_Framwork.csproj",
+        "projectPath": "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\0_Framwork\\0_Framwork.csproj",
         "packagesPath": "C:\\Users\\Lyanna\\.nuget\\packages\\",
-        "outputPath": "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\0_Framwork\\obj\\",
+        "outputPath": "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\0_Framwork\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
           "C:\\Users\\Lyanna\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -107,6 +101,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.Cookies": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
             "Microsoft.AspNetCore.Http.Features": {
               "target": "Package",
               "version": "[5.0.15, )"
@@ -118,6 +116,10 @@
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[6.0.2, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
             }
           },
           "imports": [
@@ -135,22 +137,19 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\DiscountManagement.Application\\DiscountManagement.Application.csproj": {
+    "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\AccountManagement.Application.Contracts\\AccountManagement.Application.Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\DiscountManagement.Application\\DiscountManagement.Application.csproj",
-        "projectName": "DiscountManagement.Application",
-        "projectPath": "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\DiscountManagement.Application\\DiscountManagement.Application.csproj",
+        "projectUniqueName": "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\AccountManagement.Application.Contracts\\AccountManagement.Application.Contracts.csproj",
+        "projectName": "AccountManagement.Application.Contracts",
+        "projectPath": "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\AccountManagement.Application.Contracts\\AccountManagement.Application.Contracts.csproj",
         "packagesPath": "C:\\Users\\Lyanna\\.nuget\\packages\\",
-        "outputPath": "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\DiscountManagement.Application\\obj\\",
+        "outputPath": "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\AccountManagement.Application.Contracts\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
           "C:\\Users\\Lyanna\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -166,11 +165,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\DiscountManagement.Domain\\DiscountManagement.Domain.csproj": {
-                "projectPath": "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\DiscountManagement.Domain\\DiscountManagement.Domain.csproj"
-              },
-              "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\DiscountManagment.Application.Contract\\DiscountManagment.Application.Contract.csproj": {
-                "projectPath": "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\DiscountManagment.Application.Contract\\DiscountManagment.Application.Contract.csproj"
+              "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\0_Framwork\\0_Framwork.csproj": {
+                "projectPath": "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\0_Framwork\\0_Framwork.csproj"
               }
             }
           }
@@ -199,22 +195,19 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\DiscountManagement.Configuration\\DiscountManagement.Configuration.csproj": {
+    "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\AccountManagement.Application\\AccountManagement.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\DiscountManagement.Configuration\\DiscountManagement.Configuration.csproj",
-        "projectName": "DiscountManagement.Configuration",
-        "projectPath": "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\DiscountManagement.Configuration\\DiscountManagement.Configuration.csproj",
+        "projectUniqueName": "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\AccountManagement.Application\\AccountManagement.Application.csproj",
+        "projectName": "AccountManagement.Application",
+        "projectPath": "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\AccountManagement.Application\\AccountManagement.Application.csproj",
         "packagesPath": "C:\\Users\\Lyanna\\.nuget\\packages\\",
-        "outputPath": "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\DiscountManagement.Configuration\\obj\\",
+        "outputPath": "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\AccountManagement.Application\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
           "C:\\Users\\Lyanna\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -230,14 +223,357 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\DiscountManagement.Application\\DiscountManagement.Application.csproj": {
-                "projectPath": "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\DiscountManagement.Application\\DiscountManagement.Application.csproj"
+              "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\AccountManagement.Application.Contracts\\AccountManagement.Application.Contracts.csproj": {
+                "projectPath": "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\AccountManagement.Application.Contracts\\AccountManagement.Application.Contracts.csproj"
               },
-              "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\DiscountManagement.Infrastructure.EFCore\\DiscountManagement.Infrastructure.EFCore.csproj": {
-                "projectPath": "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\DiscountManagement.Infrastructure.EFCore\\DiscountManagement.Infrastructure.EFCore.csproj"
+              "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\AccountManagement.Domain\\AccountManagement.Domain.csproj": {
+                "projectPath": "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\AccountManagement.Domain\\AccountManagement.Domain.csproj"
               },
-              "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\DiscountManagment.Application.Contract\\DiscountManagment.Application.Contract.csproj": {
-                "projectPath": "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\DiscountManagment.Application.Contract\\DiscountManagment.Application.Contract.csproj"
+              "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\AccountManagement.Infrastructure.EFCore\\AccountManagement.Infrastructure.EFCore.csproj": {
+                "projectPath": "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\AccountManagement.Infrastructure.EFCore\\AccountManagement.Infrastructure.EFCore.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\AccountManagement.Configuration\\AccountManagement.Configuration.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\AccountManagement.Configuration\\AccountManagement.Configuration.csproj",
+        "projectName": "AccountManagement.Configuration",
+        "projectPath": "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\AccountManagement.Configuration\\AccountManagement.Configuration.csproj",
+        "packagesPath": "C:\\Users\\Lyanna\\.nuget\\packages\\",
+        "outputPath": "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\AccountManagement.Configuration\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Lyanna\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\AccountManagement.Application.Contracts\\AccountManagement.Application.Contracts.csproj": {
+                "projectPath": "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\AccountManagement.Application.Contracts\\AccountManagement.Application.Contracts.csproj"
+              },
+              "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\AccountManagement.Application\\AccountManagement.Application.csproj": {
+                "projectPath": "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\AccountManagement.Application\\AccountManagement.Application.csproj"
+              },
+              "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\AccountManagement.Domain\\AccountManagement.Domain.csproj": {
+                "projectPath": "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\AccountManagement.Domain\\AccountManagement.Domain.csproj"
+              },
+              "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\AccountManagement.Infrastructure.EFCore\\AccountManagement.Infrastructure.EFCore.csproj": {
+                "projectPath": "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\AccountManagement.Infrastructure.EFCore\\AccountManagement.Infrastructure.EFCore.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\AccountManagement.Domain\\AccountManagement.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\AccountManagement.Domain\\AccountManagement.Domain.csproj",
+        "projectName": "AccountManagement.Domain",
+        "projectPath": "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\AccountManagement.Domain\\AccountManagement.Domain.csproj",
+        "packagesPath": "C:\\Users\\Lyanna\\.nuget\\packages\\",
+        "outputPath": "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\AccountManagement.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Lyanna\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\0_Framwork\\0_Framwork.csproj": {
+                "projectPath": "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\0_Framwork\\0_Framwork.csproj"
+              },
+              "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\AccountManagement.Application.Contracts\\AccountManagement.Application.Contracts.csproj": {
+                "projectPath": "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\AccountManagement.Application.Contracts\\AccountManagement.Application.Contracts.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\AccountManagement.Infrastructure.EFCore\\AccountManagement.Infrastructure.EFCore.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\AccountManagement.Infrastructure.EFCore\\AccountManagement.Infrastructure.EFCore.csproj",
+        "projectName": "AccountManagement.Infrastructure.EFCore",
+        "projectPath": "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\AccountManagement.Infrastructure.EFCore\\AccountManagement.Infrastructure.EFCore.csproj",
+        "packagesPath": "C:\\Users\\Lyanna\\.nuget\\packages\\",
+        "outputPath": "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\AccountManagement.Infrastructure.EFCore\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Lyanna\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\AccountManagement.Domain\\AccountManagement.Domain.csproj": {
+                "projectPath": "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\AccountManagement.Domain\\AccountManagement.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\DiscountManagement.Application\\DiscountManagement.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\DiscountManagement.Application\\DiscountManagement.Application.csproj",
+        "projectName": "DiscountManagement.Application",
+        "projectPath": "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\DiscountManagement.Application\\DiscountManagement.Application.csproj",
+        "packagesPath": "C:\\Users\\Lyanna\\.nuget\\packages\\",
+        "outputPath": "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\DiscountManagement.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Lyanna\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\DiscountManagement.Domain\\DiscountManagement.Domain.csproj": {
+                "projectPath": "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\DiscountManagement.Domain\\DiscountManagement.Domain.csproj"
+              },
+              "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\DiscountManagment.Application.Contract\\DiscountManagment.Application.Contract.csproj": {
+                "projectPath": "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\DiscountManagment.Application.Contract\\DiscountManagment.Application.Contract.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\DiscountManagement.Configuration\\DiscountManagement.Configuration.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\DiscountManagement.Configuration\\DiscountManagement.Configuration.csproj",
+        "projectName": "DiscountManagement.Configuration",
+        "projectPath": "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\DiscountManagement.Configuration\\DiscountManagement.Configuration.csproj",
+        "packagesPath": "C:\\Users\\Lyanna\\.nuget\\packages\\",
+        "outputPath": "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\DiscountManagement.Configuration\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Lyanna\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\DiscountManagement.Application\\DiscountManagement.Application.csproj": {
+                "projectPath": "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\DiscountManagement.Application\\DiscountManagement.Application.csproj"
+              },
+              "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\DiscountManagement.Infrastructure.EFCore\\DiscountManagement.Infrastructure.EFCore.csproj": {
+                "projectPath": "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\DiscountManagement.Infrastructure.EFCore\\DiscountManagement.Infrastructure.EFCore.csproj"
+              },
+              "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\DiscountManagment.Application.Contract\\DiscountManagment.Application.Contract.csproj": {
+                "projectPath": "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\DiscountManagment.Application.Contract\\DiscountManagment.Application.Contract.csproj"
               }
             }
           }
@@ -286,22 +622,19 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\DiscountManagement.Domain\\DiscountManagement.Domain.csproj": {
+    "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\DiscountManagement.Domain\\DiscountManagement.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\DiscountManagement.Domain\\DiscountManagement.Domain.csproj",
+        "projectUniqueName": "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\DiscountManagement.Domain\\DiscountManagement.Domain.csproj",
         "projectName": "DiscountManagement.Domain",
-        "projectPath": "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\DiscountManagement.Domain\\DiscountManagement.Domain.csproj",
+        "projectPath": "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\DiscountManagement.Domain\\DiscountManagement.Domain.csproj",
         "packagesPath": "C:\\Users\\Lyanna\\.nuget\\packages\\",
-        "outputPath": "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\DiscountManagement.Domain\\obj\\",
+        "outputPath": "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\DiscountManagement.Domain\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
           "C:\\Users\\Lyanna\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -317,11 +650,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\0_Framwork\\0_Framwork.csproj": {
-                "projectPath": "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\0_Framwork\\0_Framwork.csproj"
+              "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\0_Framwork\\0_Framwork.csproj": {
+                "projectPath": "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\0_Framwork\\0_Framwork.csproj"
               },
-              "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\DiscountManagment.Application.Contract\\DiscountManagment.Application.Contract.csproj": {
-                "projectPath": "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\DiscountManagment.Application.Contract\\DiscountManagment.Application.Contract.csproj"
+              "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\DiscountManagment.Application.Contract\\DiscountManagment.Application.Contract.csproj": {
+                "projectPath": "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\DiscountManagment.Application.Contract\\DiscountManagment.Application.Contract.csproj"
               }
             }
           }
@@ -350,22 +683,19 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\DiscountManagement.Infrastructure.EFCore\\DiscountManagement.Infrastructure.EFCore.csproj": {
+    "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\DiscountManagement.Infrastructure.EFCore\\DiscountManagement.Infrastructure.EFCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\DiscountManagement.Infrastructure.EFCore\\DiscountManagement.Infrastructure.EFCore.csproj",
+        "projectUniqueName": "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\DiscountManagement.Infrastructure.EFCore\\DiscountManagement.Infrastructure.EFCore.csproj",
         "projectName": "DiscountManagement.Infrastructure.EFCore",
-        "projectPath": "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\DiscountManagement.Infrastructure.EFCore\\DiscountManagement.Infrastructure.EFCore.csproj",
+        "projectPath": "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\DiscountManagement.Infrastructure.EFCore\\DiscountManagement.Infrastructure.EFCore.csproj",
         "packagesPath": "C:\\Users\\Lyanna\\.nuget\\packages\\",
-        "outputPath": "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\DiscountManagement.Infrastructure.EFCore\\obj\\",
+        "outputPath": "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\DiscountManagement.Infrastructure.EFCore\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
           "C:\\Users\\Lyanna\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -381,11 +711,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\DiscountManagement.Domain\\DiscountManagement.Domain.csproj": {
-                "projectPath": "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\DiscountManagement.Domain\\DiscountManagement.Domain.csproj"
+              "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\DiscountManagement.Domain\\DiscountManagement.Domain.csproj": {
+                "projectPath": "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\DiscountManagement.Domain\\DiscountManagement.Domain.csproj"
               },
-              "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\ShopManagment.Infrastructure.EFCore\\ShopManagment.Infrastructure.EFCore.csproj": {
-                "projectPath": "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\ShopManagment.Infrastructure.EFCore\\ShopManagment.Infrastructure.EFCore.csproj"
+              "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\ShopManagment.Infrastructure.EFCore\\ShopManagment.Infrastructure.EFCore.csproj": {
+                "projectPath": "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\ShopManagment.Infrastructure.EFCore\\ShopManagment.Infrastructure.EFCore.csproj"
               }
             }
           }
@@ -436,22 +766,19 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\DiscountManagment.Application.Contract\\DiscountManagment.Application.Contract.csproj": {
+    "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\DiscountManagment.Application.Contract\\DiscountManagment.Application.Contract.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\DiscountManagment.Application.Contract\\DiscountManagment.Application.Contract.csproj",
+        "projectUniqueName": "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\DiscountManagment.Application.Contract\\DiscountManagment.Application.Contract.csproj",
         "projectName": "DiscountManagment.Application.Contract",
-        "projectPath": "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\DiscountManagment.Application.Contract\\DiscountManagment.Application.Contract.csproj",
+        "projectPath": "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\DiscountManagment.Application.Contract\\DiscountManagment.Application.Contract.csproj",
         "packagesPath": "C:\\Users\\Lyanna\\.nuget\\packages\\",
-        "outputPath": "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\DiscountManagment.Application.Contract\\obj\\",
+        "outputPath": "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\DiscountManagment.Application.Contract\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
           "C:\\Users\\Lyanna\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -467,11 +794,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\0_Framwork\\0_Framwork.csproj": {
-                "projectPath": "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\0_Framwork\\0_Framwork.csproj"
+              "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\0_Framwork\\0_Framwork.csproj": {
+                "projectPath": "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\0_Framwork\\0_Framwork.csproj"
               },
-              "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\ShopManagment.Application.Contracts\\ShopManagment.Application.Contracts.csproj": {
-                "projectPath": "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\ShopManagment.Application.Contracts\\ShopManagment.Application.Contracts.csproj"
+              "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\ShopManagment.Application.Contracts\\ShopManagment.Application.Contracts.csproj": {
+                "projectPath": "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\ShopManagment.Application.Contracts\\ShopManagment.Application.Contracts.csproj"
               }
             }
           }
@@ -506,22 +833,19 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\InventoryManagement.Presentation.Api\\InventoryManagement.Presentation.Api.csproj": {
+    "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\InventoryManagement.Presentation.Api\\InventoryManagement.Presentation.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\InventoryManagement.Presentation.Api\\InventoryManagement.Presentation.Api.csproj",
+        "projectUniqueName": "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\InventoryManagement.Presentation.Api\\InventoryManagement.Presentation.Api.csproj",
         "projectName": "InventoryManagement.Presentation.Api",
-        "projectPath": "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\InventoryManagement.Presentation.Api\\InventoryManagement.Presentation.Api.csproj",
+        "projectPath": "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\InventoryManagement.Presentation.Api\\InventoryManagement.Presentation.Api.csproj",
         "packagesPath": "C:\\Users\\Lyanna\\.nuget\\packages\\",
-        "outputPath": "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\InventoryManagement.Presentation.Api\\obj\\",
+        "outputPath": "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\InventoryManagement.Presentation.Api\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
           "C:\\Users\\Lyanna\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -537,11 +861,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\01_LampshadeQuery\\01_LampshadeQuery.csproj": {
-                "projectPath": "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\01_LampshadeQuery\\01_LampshadeQuery.csproj"
+              "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\01_LampshadeQuery\\01_LampshadeQuery.csproj": {
+                "projectPath": "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\01_LampshadeQuery\\01_LampshadeQuery.csproj"
               },
-              "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\InventoryManagment.Application.Contract\\InventoryManagment.Application.Contract.csproj": {
-                "projectPath": "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\InventoryManagment.Application.Contract\\InventoryManagment.Application.Contract.csproj"
+              "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\InventoryManagment.Application.Contract\\InventoryManagment.Application.Contract.csproj": {
+                "projectPath": "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\InventoryManagment.Application.Contract\\InventoryManagment.Application.Contract.csproj"
               }
             }
           }
@@ -576,22 +900,19 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\InventoryManagment.Application.Contract\\InventoryManagment.Application.Contract.csproj": {
+    "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\InventoryManagment.Application.Contract\\InventoryManagment.Application.Contract.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\InventoryManagment.Application.Contract\\InventoryManagment.Application.Contract.csproj",
+        "projectUniqueName": "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\InventoryManagment.Application.Contract\\InventoryManagment.Application.Contract.csproj",
         "projectName": "InventoryManagment.Application.Contract",
-        "projectPath": "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\InventoryManagment.Application.Contract\\InventoryManagment.Application.Contract.csproj",
+        "projectPath": "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\InventoryManagment.Application.Contract\\InventoryManagment.Application.Contract.csproj",
         "packagesPath": "C:\\Users\\Lyanna\\.nuget\\packages\\",
-        "outputPath": "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\InventoryManagment.Application.Contract\\obj\\",
+        "outputPath": "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\InventoryManagment.Application.Contract\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
           "C:\\Users\\Lyanna\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -607,8 +928,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\01_LampshadeQuery\\01_LampshadeQuery.csproj": {
-                "projectPath": "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\01_LampshadeQuery\\01_LampshadeQuery.csproj"
+              "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\01_LampshadeQuery\\01_LampshadeQuery.csproj": {
+                "projectPath": "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\01_LampshadeQuery\\01_LampshadeQuery.csproj"
               }
             }
           }
@@ -637,22 +958,19 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\InventoryManagment.Domain\\InventoryManagment.Domain.csproj": {
+    "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\InventoryManagment.Domain\\InventoryManagment.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\InventoryManagment.Domain\\InventoryManagment.Domain.csproj",
+        "projectUniqueName": "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\InventoryManagment.Domain\\InventoryManagment.Domain.csproj",
         "projectName": "InventoryManagment.Domain",
-        "projectPath": "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\InventoryManagment.Domain\\InventoryManagment.Domain.csproj",
+        "projectPath": "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\InventoryManagment.Domain\\InventoryManagment.Domain.csproj",
         "packagesPath": "C:\\Users\\Lyanna\\.nuget\\packages\\",
-        "outputPath": "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\InventoryManagment.Domain\\obj\\",
+        "outputPath": "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\InventoryManagment.Domain\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
           "C:\\Users\\Lyanna\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -668,8 +986,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\0_Framwork\\0_Framwork.csproj": {
-                "projectPath": "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\0_Framwork\\0_Framwork.csproj"
+              "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\0_Framwork\\0_Framwork.csproj": {
+                "projectPath": "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\0_Framwork\\0_Framwork.csproj"
               }
             }
           }
@@ -698,22 +1016,19 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\InventoryManagment.Infrastructure.EFCore\\InventoryManagment.Infrastructure.EFCore.csproj": {
+    "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\InventoryManagment.Infrastructure.EFCore\\InventoryManagment.Infrastructure.EFCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\InventoryManagment.Infrastructure.EFCore\\InventoryManagment.Infrastructure.EFCore.csproj",
+        "projectUniqueName": "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\InventoryManagment.Infrastructure.EFCore\\InventoryManagment.Infrastructure.EFCore.csproj",
         "projectName": "InventoryManagment.Infrastructure.EFCore",
-        "projectPath": "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\InventoryManagment.Infrastructure.EFCore\\InventoryManagment.Infrastructure.EFCore.csproj",
+        "projectPath": "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\InventoryManagment.Infrastructure.EFCore\\InventoryManagment.Infrastructure.EFCore.csproj",
         "packagesPath": "C:\\Users\\Lyanna\\.nuget\\packages\\",
-        "outputPath": "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\InventoryManagment.Infrastructure.EFCore\\obj\\",
+        "outputPath": "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\InventoryManagment.Infrastructure.EFCore\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
           "C:\\Users\\Lyanna\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -729,8 +1044,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\InventoryManagment.Domain\\InventoryManagment.Domain.csproj": {
-                "projectPath": "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\InventoryManagment.Domain\\InventoryManagment.Domain.csproj"
+              "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\InventoryManagment.Domain\\InventoryManagment.Domain.csproj": {
+                "projectPath": "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\InventoryManagment.Domain\\InventoryManagment.Domain.csproj"
               }
             }
           }
@@ -765,22 +1080,19 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\ServiceHost\\ServiceHost.csproj": {
+    "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\ServiceHost\\ServiceHost.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\ServiceHost\\ServiceHost.csproj",
+        "projectUniqueName": "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\ServiceHost\\ServiceHost.csproj",
         "projectName": "ServiceHost",
-        "projectPath": "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\ServiceHost\\ServiceHost.csproj",
+        "projectPath": "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\ServiceHost\\ServiceHost.csproj",
         "packagesPath": "C:\\Users\\Lyanna\\.nuget\\packages\\",
-        "outputPath": "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\ServiceHost\\obj\\",
+        "outputPath": "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\ServiceHost\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
           "C:\\Users\\Lyanna\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -796,20 +1108,23 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\DiscountManagement.Configuration\\DiscountManagement.Configuration.csproj": {
-                "projectPath": "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\DiscountManagement.Configuration\\DiscountManagement.Configuration.csproj"
+              "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\AccountManagement.Configuration\\AccountManagement.Configuration.csproj": {
+                "projectPath": "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\AccountManagement.Configuration\\AccountManagement.Configuration.csproj"
               },
-              "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\InventoryManagement.Presentation.Api\\InventoryManagement.Presentation.Api.csproj": {
-                "projectPath": "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\InventoryManagement.Presentation.Api\\InventoryManagement.Presentation.Api.csproj"
+              "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\DiscountManagement.Configuration\\DiscountManagement.Configuration.csproj": {
+                "projectPath": "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\DiscountManagement.Configuration\\DiscountManagement.Configuration.csproj"
               },
-              "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\ShopManagement.Presentaton.Api\\ShopManagement.Presentation.Api.csproj": {
-                "projectPath": "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\ShopManagement.Presentaton.Api\\ShopManagement.Presentation.Api.csproj"
+              "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\InventoryManagement.Presentation.Api\\InventoryManagement.Presentation.Api.csproj": {
+                "projectPath": "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\InventoryManagement.Presentation.Api\\InventoryManagement.Presentation.Api.csproj"
               },
-              "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\ShopManagment.Application.Contracts\\ShopManagment.Application.Contracts.csproj": {
-                "projectPath": "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\ShopManagment.Application.Contracts\\ShopManagment.Application.Contracts.csproj"
+              "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\ShopManagement.Presentaton.Api\\ShopManagement.Presentation.Api.csproj": {
+                "projectPath": "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\ShopManagement.Presentaton.Api\\ShopManagement.Presentation.Api.csproj"
               },
-              "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\ShopMangmentBoostrapper\\ShopMangment.Configuration.csproj": {
-                "projectPath": "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\ShopMangmentBoostrapper\\ShopMangment.Configuration.csproj"
+              "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\ShopManagment.Application.Contracts\\ShopManagment.Application.Contracts.csproj": {
+                "projectPath": "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\ShopManagment.Application.Contracts\\ShopManagment.Application.Contracts.csproj"
+              },
+              "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\ShopMangmentBoostrapper\\ShopMangment.Configuration.csproj": {
+                "projectPath": "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\ShopMangmentBoostrapper\\ShopMangment.Configuration.csproj"
               }
             }
           }
@@ -873,22 +1188,19 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\ShopManagement.Domain\\ShopManagement.Domain.csproj": {
+    "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\ShopManagement.Domain\\ShopManagement.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\ShopManagement.Domain\\ShopManagement.Domain.csproj",
+        "projectUniqueName": "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\ShopManagement.Domain\\ShopManagement.Domain.csproj",
         "projectName": "ShopManagement.Domain",
-        "projectPath": "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\ShopManagement.Domain\\ShopManagement.Domain.csproj",
+        "projectPath": "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\ShopManagement.Domain\\ShopManagement.Domain.csproj",
         "packagesPath": "C:\\Users\\Lyanna\\.nuget\\packages\\",
-        "outputPath": "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\ShopManagement.Domain\\obj\\",
+        "outputPath": "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\ShopManagement.Domain\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
           "C:\\Users\\Lyanna\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -904,11 +1216,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\0_Framwork\\0_Framwork.csproj": {
-                "projectPath": "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\0_Framwork\\0_Framwork.csproj"
+              "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\0_Framwork\\0_Framwork.csproj": {
+                "projectPath": "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\0_Framwork\\0_Framwork.csproj"
               },
-              "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\ShopManagment.Application.Contracts\\ShopManagment.Application.Contracts.csproj": {
-                "projectPath": "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\ShopManagment.Application.Contracts\\ShopManagment.Application.Contracts.csproj"
+              "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\ShopManagment.Application.Contracts\\ShopManagment.Application.Contracts.csproj": {
+                "projectPath": "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\ShopManagment.Application.Contracts\\ShopManagment.Application.Contracts.csproj"
               }
             }
           }
@@ -949,22 +1261,19 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\ShopManagement.Presentaton.Api\\ShopManagement.Presentation.Api.csproj": {
+    "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\ShopManagement.Presentaton.Api\\ShopManagement.Presentation.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\ShopManagement.Presentaton.Api\\ShopManagement.Presentation.Api.csproj",
+        "projectUniqueName": "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\ShopManagement.Presentaton.Api\\ShopManagement.Presentation.Api.csproj",
         "projectName": "ShopManagement.Presentation.Api",
-        "projectPath": "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\ShopManagement.Presentaton.Api\\ShopManagement.Presentation.Api.csproj",
+        "projectPath": "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\ShopManagement.Presentaton.Api\\ShopManagement.Presentation.Api.csproj",
         "packagesPath": "C:\\Users\\Lyanna\\.nuget\\packages\\",
-        "outputPath": "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\ShopManagement.Presentaton.Api\\obj\\",
+        "outputPath": "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\ShopManagement.Presentaton.Api\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
           "C:\\Users\\Lyanna\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -1012,22 +1321,19 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\ShopManagment.Application.Contracts\\ShopManagment.Application.Contracts.csproj": {
+    "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\ShopManagment.Application.Contracts\\ShopManagment.Application.Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\ShopManagment.Application.Contracts\\ShopManagment.Application.Contracts.csproj",
+        "projectUniqueName": "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\ShopManagment.Application.Contracts\\ShopManagment.Application.Contracts.csproj",
         "projectName": "ShopManagment.Application.Contracts",
-        "projectPath": "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\ShopManagment.Application.Contracts\\ShopManagment.Application.Contracts.csproj",
+        "projectPath": "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\ShopManagment.Application.Contracts\\ShopManagment.Application.Contracts.csproj",
         "packagesPath": "C:\\Users\\Lyanna\\.nuget\\packages\\",
-        "outputPath": "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\ShopManagment.Application.Contracts\\obj\\",
+        "outputPath": "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\ShopManagment.Application.Contracts\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
           "C:\\Users\\Lyanna\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -1043,8 +1349,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\0_Framwork\\0_Framwork.csproj": {
-                "projectPath": "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\0_Framwork\\0_Framwork.csproj"
+              "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\0_Framwork\\0_Framwork.csproj": {
+                "projectPath": "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\0_Framwork\\0_Framwork.csproj"
               }
             }
           }
@@ -1079,22 +1385,19 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\ShopManagment.Application\\ShopManagment.Application.csproj": {
+    "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\ShopManagment.Application\\ShopManagment.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\ShopManagment.Application\\ShopManagment.Application.csproj",
+        "projectUniqueName": "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\ShopManagment.Application\\ShopManagment.Application.csproj",
         "projectName": "ShopManagment.Application",
-        "projectPath": "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\ShopManagment.Application\\ShopManagment.Application.csproj",
+        "projectPath": "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\ShopManagment.Application\\ShopManagment.Application.csproj",
         "packagesPath": "C:\\Users\\Lyanna\\.nuget\\packages\\",
-        "outputPath": "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\ShopManagment.Application\\obj\\",
+        "outputPath": "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\ShopManagment.Application\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
           "C:\\Users\\Lyanna\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -1110,14 +1413,14 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\ShopManagement.Domain\\ShopManagement.Domain.csproj": {
-                "projectPath": "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\ShopManagement.Domain\\ShopManagement.Domain.csproj"
+              "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\ShopManagement.Domain\\ShopManagement.Domain.csproj": {
+                "projectPath": "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\ShopManagement.Domain\\ShopManagement.Domain.csproj"
               },
-              "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\ShopManagment.Application.Contracts\\ShopManagment.Application.Contracts.csproj": {
-                "projectPath": "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\ShopManagment.Application.Contracts\\ShopManagment.Application.Contracts.csproj"
+              "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\ShopManagment.Application.Contracts\\ShopManagment.Application.Contracts.csproj": {
+                "projectPath": "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\ShopManagment.Application.Contracts\\ShopManagment.Application.Contracts.csproj"
               },
-              "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\ShopManagment.Infrastructure.EFCore\\ShopManagment.Infrastructure.EFCore.csproj": {
-                "projectPath": "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\ShopManagment.Infrastructure.EFCore\\ShopManagment.Infrastructure.EFCore.csproj"
+              "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\ShopManagment.Infrastructure.EFCore\\ShopManagment.Infrastructure.EFCore.csproj": {
+                "projectPath": "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\ShopManagment.Infrastructure.EFCore\\ShopManagment.Infrastructure.EFCore.csproj"
               }
             }
           }
@@ -1146,22 +1449,19 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\ShopManagment.Infrastructure.EFCore\\ShopManagment.Infrastructure.EFCore.csproj": {
+    "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\ShopManagment.Infrastructure.EFCore\\ShopManagment.Infrastructure.EFCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\ShopManagment.Infrastructure.EFCore\\ShopManagment.Infrastructure.EFCore.csproj",
+        "projectUniqueName": "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\ShopManagment.Infrastructure.EFCore\\ShopManagment.Infrastructure.EFCore.csproj",
         "projectName": "ShopManagment.Infrastructure.EFCore",
-        "projectPath": "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\ShopManagment.Infrastructure.EFCore\\ShopManagment.Infrastructure.EFCore.csproj",
+        "projectPath": "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\ShopManagment.Infrastructure.EFCore\\ShopManagment.Infrastructure.EFCore.csproj",
         "packagesPath": "C:\\Users\\Lyanna\\.nuget\\packages\\",
-        "outputPath": "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\ShopManagment.Infrastructure.EFCore\\obj\\",
+        "outputPath": "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\ShopManagment.Infrastructure.EFCore\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
           "C:\\Users\\Lyanna\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -1177,8 +1477,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\ShopManagement.Domain\\ShopManagement.Domain.csproj": {
-                "projectPath": "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\ShopManagement.Domain\\ShopManagement.Domain.csproj"
+              "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\ShopManagement.Domain\\ShopManagement.Domain.csproj": {
+                "projectPath": "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\ShopManagement.Domain\\ShopManagement.Domain.csproj"
               }
             }
           }
@@ -1229,22 +1529,19 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\ShopMangmentBoostrapper\\ShopMangment.Configuration.csproj": {
+    "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\ShopMangmentBoostrapper\\ShopMangment.Configuration.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\ShopMangmentBoostrapper\\ShopMangment.Configuration.csproj",
+        "projectUniqueName": "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\ShopMangmentBoostrapper\\ShopMangment.Configuration.csproj",
         "projectName": "ShopMangment.Configuration",
-        "projectPath": "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\ShopMangmentBoostrapper\\ShopMangment.Configuration.csproj",
+        "projectPath": "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\ShopMangmentBoostrapper\\ShopMangment.Configuration.csproj",
         "packagesPath": "C:\\Users\\Lyanna\\.nuget\\packages\\",
-        "outputPath": "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\ShopMangmentBoostrapper\\obj\\",
+        "outputPath": "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\ShopMangmentBoostrapper\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
           "C:\\Users\\Lyanna\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -1260,14 +1557,14 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\01_LampshadeQuery\\01_LampshadeQuery.csproj": {
-                "projectPath": "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\01_LampshadeQuery\\01_LampshadeQuery.csproj"
+              "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\01_LampshadeQuery\\01_LampshadeQuery.csproj": {
+                "projectPath": "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\01_LampshadeQuery\\01_LampshadeQuery.csproj"
               },
-              "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\ShopManagment.Application\\ShopManagment.Application.csproj": {
-                "projectPath": "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\ShopManagment.Application\\ShopManagment.Application.csproj"
+              "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\ShopManagment.Application\\ShopManagment.Application.csproj": {
+                "projectPath": "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\ShopManagment.Application\\ShopManagment.Application.csproj"
               },
-              "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\ShopManagment.Infrastructure.EFCore\\ShopManagment.Infrastructure.EFCore.csproj": {
-                "projectPath": "F:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\ShopManagment.Infrastructure.EFCore\\ShopManagment.Infrastructure.EFCore.csproj"
+              "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\ShopManagment.Infrastructure.EFCore\\ShopManagment.Infrastructure.EFCore.csproj": {
+                "projectPath": "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\ShopManagment.Infrastructure.EFCore\\ShopManagment.Infrastructure.EFCore.csproj"
               }
             }
           }
@@ -1296,7 +1593,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

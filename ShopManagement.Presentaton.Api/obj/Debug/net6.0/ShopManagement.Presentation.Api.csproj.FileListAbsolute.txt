@@ -10,3 +10,15 @@ F:\ASP.Net Core 5 آموزش\Project\Code\LampShade\ShopManagement.Presentaton.A
 F:\ASP.Net Core 5 آموزش\Project\Code\LampShade\ShopManagement.Presentaton.Api\obj\Debug\net6.0\ShopManagement.Presentation.Api.dll
 F:\ASP.Net Core 5 آموزش\Project\Code\LampShade\ShopManagement.Presentaton.Api\obj\Debug\net6.0\ref\ShopManagement.Presentation.Api.dll
 F:\ASP.Net Core 5 آموزش\Project\Code\LampShade\ShopManagement.Presentaton.Api\obj\Debug\net6.0\ShopManagement.Presentation.Api.pdb
+G:\ASP.Net Core 5 آموزش\Project\Code\LampShade\ShopManagement.Presentaton.Api\bin\Debug\net6.0\ShopManagement.Presentation.Api.deps.json
+G:\ASP.Net Core 5 آموزش\Project\Code\LampShade\ShopManagement.Presentaton.Api\bin\Debug\net6.0\ShopManagement.Presentation.Api.dll
+G:\ASP.Net Core 5 آموزش\Project\Code\LampShade\ShopManagement.Presentaton.Api\bin\Debug\net6.0\ref\ShopManagement.Presentation.Api.dll
+G:\ASP.Net Core 5 آموزش\Project\Code\LampShade\ShopManagement.Presentaton.Api\bin\Debug\net6.0\ShopManagement.Presentation.Api.pdb
+G:\ASP.Net Core 5 آموزش\Project\Code\LampShade\ShopManagement.Presentaton.Api\obj\Debug\net6.0\ShopManagement.Presentation.Api.csproj.AssemblyReference.cache
+G:\ASP.Net Core 5 آموزش\Project\Code\LampShade\ShopManagement.Presentaton.Api\obj\Debug\net6.0\ShopManagement.Presentation.Api.GeneratedMSBuildEditorConfig.editorconfig
+G:\ASP.Net Core 5 آموزش\Project\Code\LampShade\ShopManagement.Presentaton.Api\obj\Debug\net6.0\ShopManagement.Presentation.Api.AssemblyInfoInputs.cache
+G:\ASP.Net Core 5 آموزش\Project\Code\LampShade\ShopManagement.Presentaton.Api\obj\Debug\net6.0\ShopManagement.Presentation.Api.AssemblyInfo.cs
+G:\ASP.Net Core 5 آموزش\Project\Code\LampShade\ShopManagement.Presentaton.Api\obj\Debug\net6.0\ShopManagement.Presentation.Api.csproj.CoreCompileInputs.cache
+G:\ASP.Net Core 5 آموزش\Project\Code\LampShade\ShopManagement.Presentaton.Api\obj\Debug\net6.0\ShopManagement.Presentation.Api.dll
+G:\ASP.Net Core 5 آموزش\Project\Code\LampShade\ShopManagement.Presentaton.Api\obj\Debug\net6.0\ref\ShopManagement.Presentation.Api.dll
+G:\ASP.Net Core 5 آموزش\Project\Code\LampShade\ShopManagement.Presentaton.Api\obj\Debug\net6.0\ShopManagement.Presentation.Api.pdb

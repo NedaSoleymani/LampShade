@@ -13,16 +13,20 @@ namespace ShopManagment.Application
     public class SlideApplication : ISlideApplication
     {
         private readonly ISlideRepository _slideRepository;
+        private readonly IFileUploader _fileUploader;
 
-        public SlideApplication(ISlideRepository slideRepository)
+        public SlideApplication(ISlideRepository slideRepository, IFileUploader fileUploader)
         {
             _slideRepository = slideRepository;
+            _fileUploader = fileUploader;
         }
 
         public OperationResult Create(CreateSlide command)
         {
             var operationResult = new OperationResult();
-            var slide = new Slide(command.Picture, command.PictureAlt, command.PictureTitle, command.Heading,
+            var pictureName = _fileUploader.Upload(command.Picture, "slides");
+
+            var slide = new Slide(pictureName, command.PictureAlt, command.PictureTitle, command.Heading,
                 command.Title, command.Text, command.BtnText,command.Link);
 
             _slideRepository.Create(slide);
@@ -33,12 +37,13 @@ namespace ShopManagment.Application
         public OperationResult Edit(EditSlide command)
         {
             var operationResult = new OperationResult();
+            var pictureName = _fileUploader.Upload(command.Picture, "slides");
             var slide = _slideRepository.Get(command.Id);
 
             if (slide == null)
                 return operationResult.Failed(ApplicationMessages.RecordNotFound);
 
-            slide.Edit(command.Picture, command.PictureAlt, command.PictureTitle, command.Heading,
+            slide.Edit(pictureName, command.PictureAlt, command.PictureTitle, command.Heading,
            command.Title, command.Text, command.BtnText,command.Link);
 
             _slideRepository.SaveChange();

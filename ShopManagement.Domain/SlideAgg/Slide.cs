@@ -22,7 +22,9 @@ namespace ShopManagement.Domain.SlidAgg
         public Slide(string picture, string pictureAlt, string pictureTitle,
             string heading, string title, string text, string btnText,string link)
         {
-            Picture = picture;
+            if (!string.IsNullOrWhiteSpace(picture))
+                Picture = picture;
+
             PictureAlt = pictureAlt;
             PictureTitle = pictureTitle;
             Heading = heading;

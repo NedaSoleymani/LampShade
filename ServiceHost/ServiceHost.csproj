@@ -20,6 +20,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\AccountManagement.Configuration\AccountManagement.Configuration.csproj" />
     <ProjectReference Include="..\DiscountManagement.Configuration\DiscountManagement.Configuration.csproj" />
     <ProjectReference Include="..\InventoryManagement.Presentation.Api\InventoryManagement.Presentation.Api.csproj" />
     <ProjectReference Include="..\ShopManagement.Presentaton.Api\ShopManagement.Presentation.Api.csproj" />
@@ -28,6 +29,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="Pages\Shared\Components\Footer\" />
     <Folder Include="wwwroot\ProductPictures\" />
   </ItemGroup>
 

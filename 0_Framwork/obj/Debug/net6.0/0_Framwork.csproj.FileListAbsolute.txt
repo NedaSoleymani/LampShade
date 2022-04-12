@@ -10,3 +10,15 @@ F:\ASP.Net Core 5 آموزش\Project\Code\LampShade\0_Framwork\obj\Debug\net6.0\
 F:\ASP.Net Core 5 آموزش\Project\Code\LampShade\0_Framwork\obj\Debug\net6.0\ref\0_Framwork.dll
 F:\ASP.Net Core 5 آموزش\Project\Code\LampShade\0_Framwork\obj\Debug\net6.0\0_Framwork.pdb
 F:\ASP.Net Core 5 آموزش\Project\Code\LampShade\0_Framwork\obj\Debug\net6.0\0_Framwork.csproj.AssemblyReference.cache
+G:\ASP.Net Core 5 آموزش\Project\Code\LampShade\0_Framwork\bin\Debug\net6.0\0_Framwork.deps.json
+G:\ASP.Net Core 5 آموزش\Project\Code\LampShade\0_Framwork\bin\Debug\net6.0\0_Framwork.dll
+G:\ASP.Net Core 5 آموزش\Project\Code\LampShade\0_Framwork\bin\Debug\net6.0\ref\0_Framwork.dll
+G:\ASP.Net Core 5 آموزش\Project\Code\LampShade\0_Framwork\bin\Debug\net6.0\0_Framwork.pdb
+G:\ASP.Net Core 5 آموزش\Project\Code\LampShade\0_Framwork\obj\Debug\net6.0\0_Framwork.csproj.AssemblyReference.cache
+G:\ASP.Net Core 5 آموزش\Project\Code\LampShade\0_Framwork\obj\Debug\net6.0\0_Framwork.GeneratedMSBuildEditorConfig.editorconfig
+G:\ASP.Net Core 5 آموزش\Project\Code\LampShade\0_Framwork\obj\Debug\net6.0\0_Framwork.AssemblyInfoInputs.cache
+G:\ASP.Net Core 5 آموزش\Project\Code\LampShade\0_Framwork\obj\Debug\net6.0\0_Framwork.AssemblyInfo.cs
+G:\ASP.Net Core 5 آموزش\Project\Code\LampShade\0_Framwork\obj\Debug\net6.0\0_Framwork.csproj.CoreCompileInputs.cache
+G:\ASP.Net Core 5 آموزش\Project\Code\LampShade\0_Framwork\obj\Debug\net6.0\0_Framwork.dll
+G:\ASP.Net Core 5 آموزش\Project\Code\LampShade\0_Framwork\obj\Debug\net6.0\ref\0_Framwork.dll
+G:\ASP.Net Core 5 آموزش\Project\Code\LampShade\0_Framwork\obj\Debug\net6.0\0_Framwork.pdb

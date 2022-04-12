@@ -34,6 +34,7 @@
     ".NETCoreApp,Version=v6.0": {
       "ServiceHost/1.0.0": {
         "dependencies": {
+          "AccountManagement.Configuration": "1.0.0",
           "DiscountManagement.Configuration": "1.0.0",
           "InventoryManagement.Presentation.Api": "1.0.0",
           "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "6.0.3",
@@ -3212,6 +3213,70 @@
         },
         "compile": {
           "0_Framwork.dll": {}
+        }
+      },
+      "AccountManagement.Application/1.0.0": {
+        "dependencies": {
+          "AccountManagement.Application.Contracts": "1.0.0",
+          "AccountManagement.Domain": "1.0.0"
+        },
+        "runtime": {
+          "AccountManagement.Application.dll": {}
+        },
+        "compile": {
+          "AccountManagement.Application.dll": {}
+        }
+      },
+      "AccountManagement.Application.Contracts/1.0.0": {
+        "dependencies": {
+          "0_Framwork": "1.0.0"
+        },
+        "runtime": {
+          "AccountManagement.Application.Contracts.dll": {}
+        },
+        "compile": {
+          "AccountManagement.Application.Contracts.dll": {}
+        }
+      },
+      "AccountManagement.Configuration/1.0.0": {
+        "dependencies": {
+          "AccountManagement.Application": "1.0.0",
+          "AccountManagement.Application.Contracts": "1.0.0",
+          "AccountManagement.Domain": "1.0.0",
+          "AccountManagement.Infrastructure.EFCore": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "6.0.3",
+          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.3"
+        },
+        "runtime": {
+          "AccountManagement.Configuration.dll": {}
+        },
+        "compile": {
+          "AccountManagement.Configuration.dll": {}
+        }
+      },
+      "AccountManagement.Domain/1.0.0": {
+        "dependencies": {
+          "0_Framwork": "1.0.0",
+          "AccountManagement.Application.Contracts": "1.0.0"
+        },
+        "runtime": {
+          "AccountManagement.Domain.dll": {}
+        },
+        "compile": {
+          "AccountManagement.Domain.dll": {}
+        }
+      },
+      "AccountManagement.Infrastructure.EFCore/1.0.0": {
+        "dependencies": {
+          "AccountManagement.Domain": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "6.0.3",
+          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.3"
+        },
+        "runtime": {
+          "AccountManagement.Infrastructure.EFCore.dll": {}
+        },
+        "compile": {
+          "AccountManagement.Infrastructure.EFCore.dll": {}
         }
       },
       "DiscountManagement.Application/1.0.0": {
@@ -6713,6 +6778,31 @@
       "sha512": ""
     },
     "0_Framwork/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AccountManagement.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AccountManagement.Application.Contracts/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AccountManagement.Configuration/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AccountManagement.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AccountManagement.Infrastructure.EFCore/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

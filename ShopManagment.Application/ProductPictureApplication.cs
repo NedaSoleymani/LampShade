@@ -1,4 +1,5 @@
 ﻿using _0_Framework.Application;
+using ShopManagement.Domain.ProductAgg;
 using ShopManagement.Domain.ProductPictureAgg;
 using ShopManagment.Application.Contracts.ProductPicture;
 using System;
@@ -12,17 +13,26 @@ namespace ShopManagment.Application
     public class ProductPictureApplication : IProductPictureApplication
     {
         private readonly IProductPictureRepository _productPictureRepository;
-        public ProductPictureApplication(IProductPictureRepository productPictureRepository)
+        private readonly IProducRepository _productRepository;
+        private readonly IFileUploader _fileUploader;
+
+        public ProductPictureApplication(IProductPictureRepository productPictureRepository, IProducRepository productRepository, IFileUploader fileUploader)
         {
             _productPictureRepository = productPictureRepository;
+            _productRepository = productRepository;
+            _fileUploader = fileUploader;
         }
         public OperationResult Create(CreateProductPicture command)
         {
             var operationResult = new OperationResult();
-            if (_productPictureRepository.Exists(x => x.Picture == command.Picture && x.ProductId == command.ProductId))
-                return operationResult.Failed(ApplicationMessages.DuplicatedRecord);
+            //if (_productPictureRepository.Exists(x => x.Picture == command.Picture && x.ProductId == command.ProductId))
+            //    return operationResult.Failed(ApplicationMessages.DuplicatedRecord);
 
-            var productPicture = new ProductPicture(command.ProductId, command.Picture, command.PictureAlt, command.PictureTitle);
+            var product = _productRepository.GetProductWithCategory(command.ProductId);
+            var path = $"{product.Category.Slug}//{product.Slug}";
+            var picturePath = _fileUploader.Upload(command.Picture, path);
+
+            var productPicture = new ProductPicture(command.ProductId, picturePath, command.PictureAlt, command.PictureTitle);
             _productPictureRepository.Create(productPicture);
             _productPictureRepository.SaveChange();
             return operationResult.Successed();
@@ -31,15 +41,18 @@ namespace ShopManagment.Application
         public OperationResult Edit(EditProductPicture command)
         {
             var operationResult = new OperationResult();
-            var productPicture=_productPictureRepository.Get(command.Id);
-            if (productPicture==null)
+            var productPicture = _productPictureRepository.GetWithProductAndCategory(command.Id);
+            if (productPicture == null)
                 return operationResult.Failed(ApplicationMessages.RecordNotFound);
 
-            if (_productPictureRepository.Exists(x => x.Picture == command.Picture && x.ProductId == command.ProductId))
-                return operationResult.Failed(ApplicationMessages.DuplicatedRecord);
+            //if (_productPictureRepository.Exists(x => x.Picture == command.Picture && x.ProductId == command.ProductId))
+            //    return operationResult.Failed(ApplicationMessages.DuplicatedRecord);
 
+            var product = _productRepository.GetProductWithCategory(command.ProductId);
+            var path = $"{productPicture.Product.Category.Slug}//{productPicture.Product.Slug}";
+            var picturePath = _fileUploader.Upload(command.Picture, path);
 
-            productPicture.Edit(command.ProductId,command.Picture,command.PictureAlt,command.PictureTitle);
+            productPicture.Edit(command.ProductId, picturePath, command.PictureAlt, command.PictureTitle);
             _productPictureRepository.SaveChange();
             return operationResult.Successed();
         }
