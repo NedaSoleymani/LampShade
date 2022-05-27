@@ -1,10 +1,14 @@
 ﻿using _0_Framework.Application;
+using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Http;
+using System;
+using System.IO;
 
 namespace ServiceHost
 {
     public class FileUploader : IFileUploader
     {
-        private IWebHostEnvironment _webHostEnvironment;//گرفتن مسیر فایل
+        private readonly IWebHostEnvironment _webHostEnvironment;//گرفتن مسیر فایل
 
         public FileUploader(IWebHostEnvironment webHostEnvironment)
         {

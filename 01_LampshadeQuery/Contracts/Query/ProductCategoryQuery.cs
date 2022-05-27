@@ -19,7 +19,7 @@ namespace _01_LampshadeQuery.Contracts.Query
 
         public List<ProductCategoryQueryModel> GetProductCategories()
         {
-            return context.productCategories.Select(x => new ProductCategoryQueryModel { 
+            return context.ProductCategories.Select(x => new ProductCategoryQueryModel { 
             Name=x.Name,
             Picture=x.Picture,
             PictureAlt=x.PictureAlt,

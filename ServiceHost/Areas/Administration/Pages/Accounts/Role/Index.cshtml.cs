@@ -2,6 +2,7 @@ using AccountManagement.Application.Contracts.Account;
 using AccountManagement.Application.Contracts.Role;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using System.Collections.Generic;
 
 namespace ServiceHost.Areas.Administration.Pages.Accounts.Role
 {

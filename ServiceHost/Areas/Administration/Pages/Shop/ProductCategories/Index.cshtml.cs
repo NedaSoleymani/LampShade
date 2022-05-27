@@ -1,9 +1,12 @@
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using ShopManagment.Application.Contracts.ProductCategory;
+using System.Collections.Generic;
 
 namespace ServiceHost.Areas.Administration.Pages.Shop.ProductCategories
 {
+    [Authorize(Roles ="1,3")]
     public class IndexModel : PageModel
     {
         public ProductCategorySerachModel SearchModel;

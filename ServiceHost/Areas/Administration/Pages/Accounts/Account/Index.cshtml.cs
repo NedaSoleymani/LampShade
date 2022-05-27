@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using ShopManagment.Application.Contracts.Product;
 using ShopManagment.Application.Contracts.ProductCategory;
+using System.Collections.Generic;
 
 namespace ServiceHost.Areas.Administration.Pages.Accounts.Account
 {
@@ -32,7 +33,7 @@ namespace ServiceHost.Areas.Administration.Pages.Accounts.Account
 
         public IActionResult OnGetCreate()
         {
-            var command = new CreateAccount
+            var command = new RegisterAccount
             {
                 Roles= _roleApplication.List()
             };
@@ -40,9 +41,9 @@ namespace ServiceHost.Areas.Administration.Pages.Accounts.Account
             return Partial("./Create", command);
         }
 
-        public JsonResult OnPostCreate(CreateAccount command)
+        public JsonResult OnPostCreate(RegisterAccount command)
         {
-            var result = _accountApplication.Create(command);
+            var result = _accountApplication.Register(command);
             return new JsonResult(result);
         }
 

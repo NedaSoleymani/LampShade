@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using ShopManagment.Application.Contracts.Product;
 using ShopManagment.Application.Contracts.ProductCategory;
 using ShopManagment.Application.Contracts.ProductPicture;
+using System.Collections.Generic;
 
 namespace ServiceHost.Areas.Administration.Pages.Shop.ProductPictures
 {

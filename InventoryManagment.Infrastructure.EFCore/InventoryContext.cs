@@ -11,5 +11,16 @@ namespace InventoryManagment.Infrastructure.EFCore
     public class InventoryContext: DbContext
     {
         public DbSet<Inventory> Inventory { set; get; }
+        //public InventoryContext(DbContextOptions<InventoryContext> options) : base(options)
+        //{
+
+        //}
+
+        //protected override void OnModelCreating(ModelBuilder modelBuilder)
+        //{
+        //    //var assembly = typeof(InventoryMapping).Assembly;
+        //    //modelBuilder.ApplyConfigurationsFromAssembly(assembly);
+        //    //base.OnModelCreating(modelBuilder);
+        //}
     }
 }

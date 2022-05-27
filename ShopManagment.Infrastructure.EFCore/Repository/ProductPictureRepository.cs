@@ -22,7 +22,7 @@ namespace ShopManagment.Infrastructure.EFCore.Repository
 
         public EditProductPicture GetDetails(long id)
         {
-            return _context.productPictures.Select(x => new EditProductPicture
+            return _context.ProductPictures.Select(x => new EditProductPicture
             {
                 Id = x.Id,
                 PictureAlt = x.PictureAlt,
@@ -34,7 +34,7 @@ namespace ShopManagment.Infrastructure.EFCore.Repository
 
         public ProductPicture GetWithProductAndCategory(long id)
         {
-            return _context.productPictures
+            return _context.ProductPictures
                 .Include(x => x.Product)
                 .ThenInclude(x => x.Category)
                 .FirstOrDefault(x => x.Id == id);
@@ -42,7 +42,7 @@ namespace ShopManagment.Infrastructure.EFCore.Repository
 
         public List<ProductPictureViewModel> Search(ProductPictureSearchModel searchModel)
         {
-            var query = _context.productPictures.Include(x => x.Product).Select(
+            var query = _context.ProductPictures.Include(x => x.Product).Select(
                 x => new ProductPictureViewModel
                 {
                     Id = x.Id,

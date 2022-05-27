@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using ShopManagment.Application.Contracts.Product;
-
+using System.Collections.Generic;
 
 namespace ServiceHost.Areas.Administration.Pages.Discounts.CustomerDiscounts
 {

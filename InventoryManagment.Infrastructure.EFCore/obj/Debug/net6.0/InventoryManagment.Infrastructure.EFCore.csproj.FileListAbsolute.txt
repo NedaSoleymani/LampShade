@@ -16,6 +16,7 @@ F:\ASP.Net Core 5 آموزش\Project\Code\LampShade\InventoryManagment.Infrastru
 F:\ASP.Net Core 5 آموزش\Project\Code\LampShade\InventoryManagment.Infrastructure.EFCore\obj\Debug\net6.0\ref\InventoryManagment.Infrastructure.EFCore.dll
 F:\ASP.Net Core 5 آموزش\Project\Code\LampShade\InventoryManagment.Infrastructure.EFCore\obj\Debug\net6.0\InventoryManagment.Infrastructure.EFCore.pdb
 G:\ASP.Net Core 5 آموزش\Project\Code\LampShade\InventoryManagment.Infrastructure.EFCore\bin\Debug\net6.0\InventoryManagment.Infrastructure.EFCore.deps.json
+G:\ASP.Net Core 5 آموزش\Project\Code\LampShade\InventoryManagment.Infrastructure.EFCore\bin\Debug\net6.0\InventoryManagment.Infrastructure.EFCore.runtimeconfig.json
 G:\ASP.Net Core 5 آموزش\Project\Code\LampShade\InventoryManagment.Infrastructure.EFCore\bin\Debug\net6.0\InventoryManagment.Infrastructure.EFCore.dll
 G:\ASP.Net Core 5 آموزش\Project\Code\LampShade\InventoryManagment.Infrastructure.EFCore\bin\Debug\net6.0\ref\InventoryManagment.Infrastructure.EFCore.dll
 G:\ASP.Net Core 5 آموزش\Project\Code\LampShade\InventoryManagment.Infrastructure.EFCore\bin\Debug\net6.0\InventoryManagment.Infrastructure.EFCore.pdb
@@ -32,3 +33,4 @@ G:\ASP.Net Core 5 آموزش\Project\Code\LampShade\InventoryManagment.Infrastru
 G:\ASP.Net Core 5 آموزش\Project\Code\LampShade\InventoryManagment.Infrastructure.EFCore\obj\Debug\net6.0\InventoryManagment.Infrastructure.EFCore.dll
 G:\ASP.Net Core 5 آموزش\Project\Code\LampShade\InventoryManagment.Infrastructure.EFCore\obj\Debug\net6.0\ref\InventoryManagment.Infrastructure.EFCore.dll
 G:\ASP.Net Core 5 آموزش\Project\Code\LampShade\InventoryManagment.Infrastructure.EFCore\obj\Debug\net6.0\InventoryManagment.Infrastructure.EFCore.pdb
+G:\ASP.Net Core 5 آموزش\Project\Code\LampShade\InventoryManagment.Infrastructure.EFCore\obj\Debug\net6.0\InventoryManagment.Infrastructure.EFCore.genruntimeconfig.cache

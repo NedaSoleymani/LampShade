@@ -106,10 +106,5 @@ namespace _0_Framework.Application
             ////return false;
             //return claims.Count > 0;
         }
-
-        public void Sigin(AuthViewModel account)
-        {
-            throw new NotImplementedException();
-        }
     }
 }

@@ -3,7 +3,13 @@ using _0_Framwork.Application;
 using AccountManagement.Configuration;
 using DiscountManagement.Configuration;
 using InventoryManagement.Presentation.Api;
+using InventoryManagment.Infrastructure.Configuration;
 using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.AspNetCore.Builder;
+using Microsoft.AspNetCore.Http;
+using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
 using ServiceHost;
 using ShopManagement.Presentation.Api.Controller;
 using ShopMangment.Configuration;
@@ -15,10 +21,11 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddHttpContextAccessor();
 //builder.Services.AddScoped<IHttpContextAccessor, HttpContextAccessor>();
 
-var connectionString = builder.Configuration.GetConnectionString("LampShadeDb");
+var connectionString = builder.Configuration.GetConnectionString("LampShadeDB");
 ShopMangmentBoostrapper.Configure(builder.Services, connectionString);
 DiscountManagementBootstrapper.Configure(builder.Services, connectionString);
 AccountManagementBootstrapper.Configure(builder.Services, connectionString);
+//InventoryManagmentBootstrapper.Configure(builder.Services, connectionString);
 
 builder.Services.Configure<CookiePolicyOptions>(options =>
 {
@@ -26,6 +33,7 @@ builder.Services.Configure<CookiePolicyOptions>(options =>
     options.MinimumSameSitePolicy = SameSiteMode.Lax;
 });
 
+//set cookie login
 builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
     .AddCookie(CookieAuthenticationDefaults.AuthenticationScheme, o =>
     {

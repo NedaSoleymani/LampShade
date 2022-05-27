@@ -11,8 +11,8 @@ namespace ShopManagment.Infrastructure.EFCore
     public class ShopContext : DbContext
     {
         public DbSet<Product> Products { set; get; }
-        public DbSet<ProductCategory> productCategories { set; get; }
-        public DbSet<ProductPicture> productPictures { set; get; }
+        public DbSet<ProductCategory> ProductCategories { set; get; }
+        public DbSet<ProductPicture> ProductPictures { set; get; }
         public DbSet<Slide> Slides { set; get; }
 
         public ShopContext(DbContextOptions<ShopContext> options) : base(options)

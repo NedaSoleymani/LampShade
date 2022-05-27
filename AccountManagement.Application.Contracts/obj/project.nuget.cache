@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "oUNN11yxtWEOPOwdmQDO2aTPABOgyv3spGM51wpkzN89URKwO0gC3bi7fbmUOZP1EthlV6cDFpn/7nM+bheXyg==",
+  "dgSpecHash": "ZwO55XwHWkWo1CNwoV8hALvlR2o8Kutaj2M4uOMTt7eeT1vrptQwhIaroVpwnmiA4hfPluqVqi7JWL7Cp6/ULA==",
   "success": true,
   "projectFilePath": "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\AccountManagement.Application.Contracts\\AccountManagement.Application.Contracts.csproj",
   "expectedPackageFiles": [
@@ -20,9 +20,9 @@
     "C:\\Users\\Lyanna\\.nuget\\packages\\microsoft.aspnetcore.mvc.abstractions\\2.2.0\\microsoft.aspnetcore.mvc.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\Lyanna\\.nuget\\packages\\microsoft.aspnetcore.routing.abstractions\\2.2.0\\microsoft.aspnetcore.routing.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\Lyanna\\.nuget\\packages\\microsoft.aspnetcore.webutilities\\2.2.0\\microsoft.aspnetcore.webutilities.2.2.0.nupkg.sha512",
-    "C:\\Users\\Lyanna\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.2\\microsoft.entityframeworkcore.6.0.2.nupkg.sha512",
-    "C:\\Users\\Lyanna\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.2\\microsoft.entityframeworkcore.abstractions.6.0.2.nupkg.sha512",
-    "C:\\Users\\Lyanna\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\6.0.2\\microsoft.entityframeworkcore.analyzers.6.0.2.nupkg.sha512",
+    "C:\\Users\\Lyanna\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.5\\microsoft.entityframeworkcore.6.0.5.nupkg.sha512",
+    "C:\\Users\\Lyanna\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.5\\microsoft.entityframeworkcore.abstractions.6.0.5.nupkg.sha512",
+    "C:\\Users\\Lyanna\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\6.0.5\\microsoft.entityframeworkcore.analyzers.6.0.5.nupkg.sha512",
     "C:\\Users\\Lyanna\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\6.0.0\\microsoft.extensions.caching.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\Lyanna\\.nuget\\packages\\microsoft.extensions.caching.memory\\6.0.1\\microsoft.extensions.caching.memory.6.0.1.nupkg.sha512",
     "C:\\Users\\Lyanna\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\2.2.0\\microsoft.extensions.configuration.abstractions.2.2.0.nupkg.sha512",

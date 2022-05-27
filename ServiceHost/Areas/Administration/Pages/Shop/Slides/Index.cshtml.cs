@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using ShopManagment.Application.Contracts.Product;
 using ShopManagment.Application.Contracts.Slide;
+using System.Collections.Generic;
 
 namespace ServiceHost.Areas.Administration.Pages.Shop.Slides
 {

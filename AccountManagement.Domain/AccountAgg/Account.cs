@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace AccountManagement.Domain.AccountAgg
 {
-    public class Account:EntityBase
+    public class Account : EntityBase
     {
         public string Fullname { get; private set; }
         public string Username { get; private set; }
@@ -25,6 +25,10 @@ namespace AccountManagement.Domain.AccountAgg
             Password = password;
             Mobile = mobile;
             RoleId = roleId;
+            if (roleId == 0)
+            {
+                RoleId = 2;
+            }
             ProfilePhoto = profilePhoto;
         }
 
@@ -35,7 +39,7 @@ namespace AccountManagement.Domain.AccountAgg
             Mobile = mobile;
             RoleId = roleId;
             if (!string.IsNullOrWhiteSpace(profilePhoto))
-            ProfilePhoto = profilePhoto;
+                ProfilePhoto = profilePhoto;
         }
 
         public void ChangePassword(string password)
