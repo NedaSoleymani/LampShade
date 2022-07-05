@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "RGvZCPZPPHDzIvA3ZaUNpzMpk39QmJ1VG7sXUu8/pEk=",
+  "Hash": "mcF+OiCUI7INL8yaOyds3c0wEeFuY8yF36hb48SbjHM=",
   "Source": "ServiceHost",
   "BasePath": "_content/ServiceHost",
   "Mode": "Default",
@@ -5880,6 +5880,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Identity": "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\ServiceHost\\wwwroot\\ProductPictures\\10000.KSL1agDdJzK9fQWfgzLf8w==.BFJbp163VCVKpR6qUIcTKjDqdcA1++USuCPkmDJbgVI=\\2022-06-23-23-55-52-WIN_20220610_13_55_08_Pro.jpg",
+      "SourceId": "ServiceHost",
+      "SourceType": "Discovered",
+      "ContentRoot": "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\ServiceHost\\wwwroot\\",
+      "BasePath": "_content/ServiceHost",
+      "RelativePath": "ProductPictures/10000.KSL1agDdJzK9fQWfgzLf8w==.BFJbp163VCVKpR6qUIcTKjDqdcA1++USuCPkmDJbgVI=/2022-06-23-23-55-52-WIN_20220610_13_55_08_Pro.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\ProductPictures\\10000.KSL1agDdJzK9fQWfgzLf8w==.BFJbp163VCVKpR6qUIcTKjDqdcA1++USuCPkmDJbgVI=\\2022-06-23-23-55-52-WIN_20220610_13_55_08_Pro.jpg"
     },
     {
       "Identity": "G:\\ASP.Net Core 5 آموزش\\Project\\Code\\LampShade\\ServiceHost\\wwwroot\\Theme\\assets\\css\\Custom.css",

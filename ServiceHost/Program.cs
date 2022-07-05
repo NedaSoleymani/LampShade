@@ -1,4 +1,4 @@
-using _0_Framework.Application;
+﻿using _0_Framework.Application;
 using _0_Framwork.Application;
 using AccountManagement.Configuration;
 using DiscountManagement.Configuration;
@@ -13,6 +13,8 @@ using Microsoft.Extensions.Hosting;
 using ServiceHost;
 using ShopManagement.Presentation.Api.Controller;
 using ShopMangment.Configuration;
+using System.Text.Encodings.Web;
+using System.Text.Unicode;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -27,6 +29,7 @@ DiscountManagementBootstrapper.Configure(builder.Services, connectionString);
 AccountManagementBootstrapper.Configure(builder.Services, connectionString);
 //InventoryManagmentBootstrapper.Configure(builder.Services, connectionString);
 
+//add cookie login
 builder.Services.Configure<CookiePolicyOptions>(options =>
 {
     options.CheckConsentNeeded = context => true;
@@ -41,10 +44,10 @@ builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationSc
         o.LogoutPath = new PathString("/Account");
         o.AccessDeniedPath = new PathString("/AccessDenied");
     });
-
-
+//
+builder.Services.AddSingleton(HtmlEncoder.Create(UnicodeRanges.Balinese, UnicodeRanges.Arabic));
 builder.Services.AddTransient<IFileUploader, FileUploader>();
-builder.Services.AddTransient<IPasswordHasher, PasswordHasher>();
+builder.Services.AddSingleton<IPasswordHasher, PasswordHasher>();
 builder.Services.AddTransient<IAuthHelper, AuthHelper>();
 
 builder.Services.AddCors(options => options.AddPolicy("MyPolicy", builder =>
@@ -72,12 +75,13 @@ if (!app.Environment.IsDevelopment())
     app.UseHsts();
 }
 
+//اضافه کردن کوکی
 app.UseAuthentication();
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 app.UseCookiePolicy();
 app.UseRouting();
-
+//
 app.UseAuthorization();
 
 app.MapRazorPages();

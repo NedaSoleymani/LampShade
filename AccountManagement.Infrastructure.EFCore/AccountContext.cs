@@ -12,8 +12,8 @@ namespace AccountManagement.Infrastructure.EFCore
 {
     public class AccountContext:DbContext
     {
-        public DbSet<Account> Accounts { get; set; }
-        public DbSet<Role> Roles { get; set; }
+        public DbSet<Account> Accounts { get; private set; }
+        public DbSet<Role> Roles { get; private set; }
 
         public AccountContext(DbContextOptions<AccountContext> options):base(options)
         {

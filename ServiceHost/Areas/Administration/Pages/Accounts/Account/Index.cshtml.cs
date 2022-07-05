@@ -50,6 +50,7 @@ namespace ServiceHost.Areas.Administration.Pages.Accounts.Account
         public IActionResult OnGetEdit(long id)
         {
             var account = _accountApplication.GetDtails(id);
+            account.Roles = _roleApplication.List();
             return Partial("Edit", account);
         }
 

@@ -12,23 +12,23 @@ namespace AccountManagement.Application
 {
     public class RoleApplication : IRoleApplication
     {
-        private readonly RoleRepository _roleRepository;
+        private readonly IRoleRepositoy _roleRepository;
 
-        public RoleApplication(RoleRepository roleRepository)
+        public RoleApplication(IRoleRepositoy roleRepository)
         {
-            this._roleRepository = roleRepository;
+            _roleRepository = roleRepository;
         }
 
         public OperationResult Create(CreateRole command)
         {
             OperationResult operation = new OperationResult();
             if (_roleRepository.Exists(x => x.Name == command.Name))
-               return  operation.Failed(ApplicationMessages.DuplicatedRecord);
+                return operation.Failed(ApplicationMessages.DuplicatedRecord);
 
             var role = new Role(command.Name);
             _roleRepository.Create(role);
             _roleRepository.SaveChange();
-            return operation;
+            return operation.Successed();
 
         }
 
@@ -39,12 +39,12 @@ namespace AccountManagement.Application
             if (role == null)
                 return operation.Failed(ApplicationMessages.RecordNotFound);
 
-            if (_roleRepository.Exists(x => x.Name == command.Name && x.Id !=command.Id))
-            return operation.Failed(ApplicationMessages.DuplicatedRecord);
+            if (_roleRepository.Exists(x => x.Name == command.Name && x.Id != command.Id))
+                return operation.Failed(ApplicationMessages.DuplicatedRecord);
 
             role.Edit(command.Name);
             _roleRepository.SaveChange();
-            return operation;
+            return operation.Successed();
         }
 
         public EditRole GetDetails(long id)
@@ -54,7 +54,8 @@ namespace AccountManagement.Application
 
         public List<RoleViewModel> List()
         {
-                return _roleRepository.List();
+            return _roleRepository.List();
         }
+
     }
 }
