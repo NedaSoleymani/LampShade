@@ -1,5 +1,6 @@
 ﻿using _0_Framework.Application;
 using _0_Framwork.Application;
+using _0_Framwork.Infrastructure;
 using AccountManagement.Configuration;
 using DiscountManagement.Configuration;
 using InventoryManagement.Presentation.Api;
@@ -24,7 +25,7 @@ builder.Services.AddHttpContextAccessor();
 //builder.Services.AddScoped<IHttpContextAccessor, HttpContextAccessor>();
 
 var connectionString = builder.Configuration.GetConnectionString("LampShadeDB");
-ShopMangmentBoostrapper.Configure(builder.Services, connectionString);
+ShopMangmentBootstrapper.Configure(builder.Services, connectionString);
 DiscountManagementBootstrapper.Configure(builder.Services, connectionString);
 AccountManagementBootstrapper.Configure(builder.Services, connectionString);
 //InventoryManagmentBootstrapper.Configure(builder.Services, connectionString);
@@ -45,6 +46,25 @@ builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationSc
         o.AccessDeniedPath = new PathString("/AccessDenied");
     });
 //
+//ست کردت دسترسی صفحه ها
+//fo==
+builder.Services.AddAuthorization(options =>
+{
+    options.AddPolicy("AdminArea", builder => builder.RequireRole(new System.Collections.Generic.List<string> { Roles.Administator, Roles.ContentUploader }));
+    options.AddPolicy("Shop", builder => builder.RequireRole(new System.Collections.Generic.List<string> { Roles.Administator }));
+    options.AddPolicy("Discount", builder => builder.RequireRole(new System.Collections.Generic.List<string> { Roles.Administator }));
+    options.AddPolicy("Account", builder => builder.RequireRole(new System.Collections.Generic.List<string> { Roles.Administator }));
+}) ;
+//policy page
+builder.Services.AddRazorPages().AddRazorPagesOptions(options => {
+    options.Conventions.AuthorizeAreaFolder("Administration", "/", "AdminArea");
+    options.Conventions.AuthorizeAreaFolder("Administration", "/Shop", "Shop");
+    options.Conventions.AuthorizeAreaFolder("Administration", "/Discounts", "Discount");
+    options.Conventions.AuthorizeAreaFolder("Administration", "/Accounts", "Account");
+});
+/// 
+
+
 builder.Services.AddSingleton(HtmlEncoder.Create(UnicodeRanges.Balinese, UnicodeRanges.Arabic));
 builder.Services.AddTransient<IFileUploader, FileUploader>();
 builder.Services.AddSingleton<IPasswordHasher, PasswordHasher>();

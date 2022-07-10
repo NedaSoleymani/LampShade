@@ -1,3 +1,4 @@
+﻿using _0_Framwork.Infrastructure;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
@@ -6,7 +7,8 @@ using System.Collections.Generic;
 
 namespace ServiceHost.Areas.Administration.Pages.Shop.ProductCategories
 {
-    [Authorize(Roles ="1,3")]
+    //دسترسی نقش ها به صفحه
+    [Authorize(Roles = Roles.Administator)]
     public class IndexModel : PageModel
     {
         public ProductCategorySerachModel SearchModel;

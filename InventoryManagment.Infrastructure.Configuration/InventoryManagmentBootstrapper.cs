@@ -1,5 +1,7 @@
-﻿using _01_LampshadeQuery.Contracts.Inventory;
+﻿using _0_Framwork.Infrastructure;
+using _01_LampshadeQuery.Contracts.Inventory;
 using _01_LampshadeQuery.Contracts.Query;
+using InventoryManagment.Infrastructure.Configuration.Permissions;
 using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Collections.Generic;
@@ -14,6 +16,11 @@ namespace InventoryManagment.Infrastructure.Configuration
         public static void Configure(IServiceCollection services, string connectionString)
         {
             services.AddTransient<IInventoryQuery, InventoryQuery>();
+
+            //services.AddTransient<IInventoryApplication, ProductApplication>();
+            //services.AddTransient<IInventoryRepository, ProductRepository>();
+
+            services.AddTransient<IPermissionExposer, InventoryPermissionExposer>();
         }
     }
 }

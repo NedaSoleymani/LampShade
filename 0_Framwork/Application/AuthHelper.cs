@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Security.Claims;
 using _0_Framwork.Application;
+using _0_Framwork.Infrastructure;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Http;
@@ -24,6 +25,7 @@ namespace _0_Framework.Application
             //security date in cookei
             var claims = new List<Claim>
             {
+                //اگر تایپی نداشت به صورت رشته ای نوشته شود
                 new Claim("AccountId", account.Id.ToString()),
                 new Claim(ClaimTypes.Name, account.FullName),
                 new Claim(ClaimTypes.Role, account.RoleId.ToString()),
@@ -61,7 +63,7 @@ namespace _0_Framework.Application
             result.Username = claims.FirstOrDefault(x => x.Type == "Username").Value;
             result.RoleId = long.Parse(claims.FirstOrDefault(x => x.Type == ClaimTypes.Role).Value);
             result.FullName = claims.FirstOrDefault(x => x.Type == ClaimTypes.Name).Value;
-            //result.Role = Roles.GetRoleBy(result.RoleId);
+            result.Role = Roles.GetRoleBy(result.RoleId);
             return result;
         }
 

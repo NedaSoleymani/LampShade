@@ -10,6 +10,7 @@ namespace _0_Framwork.Application
     {
         public long Id { get; set; }
         public long RoleId { get; set; }
+        public string Role { get; set; }
         public string FullName { get; set; }
         public string Username { get; set; }
         public string Mobile { get; set; }
@@ -18,12 +19,13 @@ namespace _0_Framwork.Application
         {
 
         }
-        public AuthViewModel(long id, long roleId, string fullName, string username)
+        public AuthViewModel(long id, long roleId, string fullName, string username,string mobile)
         {
             Id = id;
             RoleId = roleId;
             FullName = fullName;
             Username = username;
+            Mobile = mobile;
         }
     }
 }

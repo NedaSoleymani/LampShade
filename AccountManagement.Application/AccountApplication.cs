@@ -100,7 +100,7 @@ namespace AccountManagement.Application
                 return operation.Failed(ApplicationMessages.WrongUserPass);
 
             //set coockei in response
-            var authViewModel = new AuthViewModel(account.Id, account.RoleId, account.Fullname, account.Username);
+            var authViewModel = new AuthViewModel(account.Id, account.RoleId, account.Fullname, account.Username,account.Mobile);
             _authHelper.Signin(authViewModel);
             return operation.Successed();
         }

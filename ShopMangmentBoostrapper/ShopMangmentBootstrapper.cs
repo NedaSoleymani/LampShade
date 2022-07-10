@@ -14,10 +14,12 @@ using ShopManagment.Application.Contracts.Slide;
 using _01_LampshadeQuery.Contracts.Slide;
 using _01_LampshadeQuery.Contracts.Query;
 using _01_LampshadeQuery.Contracts.ProductCategory;
+using _0_Framwork.Infrastructure;
+using ShopMangment.Configuration.Permissions;
 
 namespace ShopMangment.Configuration
 {
-    public class ShopMangmentBoostrapper
+    public class ShopMangmentBootstrapper
     {
         public static void Configure(IServiceCollection services, string connectionString)
         {
@@ -35,6 +37,8 @@ namespace ShopMangment.Configuration
 
             services.AddTransient<ISlideQuery, SlideQuery>();
             services.AddTransient<IProductCategoryQuery, ProductCategoryQuery>();
+
+            services.AddTransient<IPermissionExposer, ShopPermissionExposer>();
 
             services.AddDbContext<ShopContext>(x => x.UseSqlServer(connectionString));
         }
