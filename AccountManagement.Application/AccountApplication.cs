@@ -2,6 +2,7 @@
 using _0_Framwork.Application;
 using AccountManagement.Application.Contracts.Account;
 using AccountManagement.Domain.AccountAgg;
+using AccountManagement.Domain.RoleAgg;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -16,14 +17,16 @@ namespace AccountManagement.Application
         private readonly IPasswordHasher _passwordHasher;
         private readonly IFileUploader _fileUploader;
         private readonly IAuthHelper _authHelper;
+        private readonly IRoleRepositoy _roleRepository;
 
         public AccountApplication(IAccountRepository acountRepository, IPasswordHasher passwordHasher,
-            IFileUploader fileUploader, IAuthHelper authHelper)
+            IFileUploader fileUploader, IAuthHelper authHelper, IRoleRepositoy roleRepository)
         {
             _acountRepository = acountRepository;
             _passwordHasher = passwordHasher;
             _fileUploader = fileUploader;
             _authHelper = authHelper;
+            _roleRepository = roleRepository;
         }
 
         public OperationResult Register(RegisterAccount command)
@@ -99,8 +102,13 @@ namespace AccountManagement.Application
             if (!result.Verified)
                 return operation.Failed(ApplicationMessages.WrongUserPass);
 
+            var permissions = _roleRepository.Get(account.RoleId).Permissions.Select(x => x.Code).ToList();
             //set coockei in response
-            var authViewModel = new AuthViewModel(account.Id, account.RoleId, account.Fullname, account.Username,account.Mobile);
+            var authViewModel = new AuthViewModel(
+                account.Id,
+                account.RoleId, account.Fullname, 
+                account.Username,account.Mobile,permissions
+                );
             _authHelper.Signin(authViewModel);
             return operation.Successed();
         }

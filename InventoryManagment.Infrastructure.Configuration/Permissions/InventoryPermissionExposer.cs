@@ -19,6 +19,9 @@ namespace InventoryManagment.Infrastructure.Configuration.Permissions
               new PermissionDto(InventoryPermissions.SearchInventory,"SearchInventory"),
               new PermissionDto(InventoryPermissions.CreateInventory,"CreateInventory"),
               new PermissionDto(InventoryPermissions.EditInventory,"EditInventory"),
+              new PermissionDto(InventoryPermissions.Reduce,"Reduce"),
+              new PermissionDto(InventoryPermissions.Increase,"Increase"),
+              new PermissionDto(InventoryPermissions.OperationLog,"OperationLog"),
               }
               }
           };

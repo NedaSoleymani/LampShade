@@ -56,7 +56,10 @@ builder.Services.AddAuthorization(options =>
     options.AddPolicy("Account", builder => builder.RequireRole(new System.Collections.Generic.List<string> { Roles.Administator }));
 }) ;
 //policy page
-builder.Services.AddRazorPages().AddRazorPagesOptions(options => {
+builder.Services.AddRazorPages()
+    //filter pages
+    .AddMvcOptions(options=> options.Filters.Add<SecurityPageFilter>())
+    .AddRazorPagesOptions(options => {
     options.Conventions.AuthorizeAreaFolder("Administration", "/", "AdminArea");
     options.Conventions.AuthorizeAreaFolder("Administration", "/Shop", "Shop");
     options.Conventions.AuthorizeAreaFolder("Administration", "/Discounts", "Discount");

@@ -28,6 +28,8 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="Areas\Administration\Pages\Blog\" />
+    <Folder Include="Areas\Administration\Pages\Inventory\" />
     <Folder Include="Pages\Shared\Components\Footer\" />
     <Folder Include="wwwroot\ProductPictures\" />
   </ItemGroup>
