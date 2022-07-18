@@ -16,4 +16,8 @@
     <ProjectReference Include="..\0_Framwork\0_Framwork.csproj" />
     <ProjectReference Include="..\ShopManagment.Application.Contracts\ShopManagment.Application.Contracts.csproj" />
   </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="OrderAgg\" />
+  </ItemGroup>
 </Project>

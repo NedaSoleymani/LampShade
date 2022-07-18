@@ -16,6 +16,8 @@ using _01_LampshadeQuery.Contracts.Query;
 using _01_LampshadeQuery.Contracts.ProductCategory;
 using _0_Framwork.Infrastructure;
 using ShopMangment.Configuration.Permissions;
+using ShopManagement.Domain.Services;
+using ShopManagment.Infrastructure.AccountAcl;
 
 namespace ShopMangment.Configuration
 {
@@ -34,6 +36,9 @@ namespace ShopMangment.Configuration
 
             services.AddTransient<ISlideRepository,  SlideRepository>();
             services.AddTransient<ISlideApplication, SlideApplication>();
+
+            services.AddTransient<IShopAccountAcl, ShopAccountAcl>();
+            //services.AddTransient<IShopInventoryAcl, ShopInventoryAcl>();
 
             services.AddTransient<ISlideQuery, SlideQuery>();
             services.AddTransient<IProductCategoryQuery, ProductCategoryQuery>();

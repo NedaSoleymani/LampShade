@@ -56,3 +56,7 @@ G:\ASP.Net Core 5 آموزش\Project\Code\LampShade\ShopMangmentBoostrapper\obj\
 G:\ASP.Net Core 5 آموزش\Project\Code\LampShade\ShopMangmentBoostrapper\obj\Debug\net6.0\ShopMangment.Configuration.dll
 G:\ASP.Net Core 5 آموزش\Project\Code\LampShade\ShopMangmentBoostrapper\obj\Debug\net6.0\ref\ShopMangment.Configuration.dll
 G:\ASP.Net Core 5 آموزش\Project\Code\LampShade\ShopMangmentBoostrapper\obj\Debug\net6.0\ShopMangment.Configuration.pdb
+G:\ASP.Net Core 5 آموزش\Project\Code\LampShade\ShopMangmentBoostrapper\bin\Debug\net6.0\AccountManagement.Application.Contracts.dll
+G:\ASP.Net Core 5 آموزش\Project\Code\LampShade\ShopMangmentBoostrapper\bin\Debug\net6.0\ShopManagment.Infrastructure.AccountAcl.dll
+G:\ASP.Net Core 5 آموزش\Project\Code\LampShade\ShopMangmentBoostrapper\bin\Debug\net6.0\ShopManagment.Infrastructure.AccountAcl.pdb
+G:\ASP.Net Core 5 آموزش\Project\Code\LampShade\ShopMangmentBoostrapper\bin\Debug\net6.0\AccountManagement.Application.Contracts.pdb

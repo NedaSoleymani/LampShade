@@ -9,6 +9,7 @@ namespace AccountManagement.Application.Contracts.Account
 {
     public  interface IAccountApplication
     {
+        AccountViewModel GetAccountById(long id);
         OperationResult Register(RegisterAccount command);
         OperationResult Edit(EditAccount command);
         OperationResult ChangePassword(ChangePassword command);

@@ -106,8 +106,8 @@ namespace AccountManagement.Application
             //set coockei in response
             var authViewModel = new AuthViewModel(
                 account.Id,
-                account.RoleId, account.Fullname, 
-                account.Username,account.Mobile,permissions
+                account.RoleId, account.Fullname,
+                account.Username, account.Mobile, permissions
                 );
             _authHelper.Signin(authViewModel);
             return operation.Successed();
@@ -118,5 +118,10 @@ namespace AccountManagement.Application
             _authHelper.SignOut();
         }
 
+        public AccountViewModel GetAccountById(long id)
+        {
+            var account = _acountRepository.Get(id);
+            return new AccountViewModel() { Fullname = account.Fullname, Mobile = account.Mobile };
+        }
     }
 }

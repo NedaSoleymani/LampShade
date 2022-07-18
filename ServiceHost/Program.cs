@@ -1,4 +1,6 @@
 ﻿using _0_Framework.Application;
+using _0_Framework.Application.Email;
+using _0_Framework.Application.Sms;
 using _0_Framwork.Application;
 using _0_Framwork.Infrastructure;
 using AccountManagement.Configuration;
@@ -72,6 +74,9 @@ builder.Services.AddSingleton(HtmlEncoder.Create(UnicodeRanges.Balinese, Unicode
 builder.Services.AddTransient<IFileUploader, FileUploader>();
 builder.Services.AddSingleton<IPasswordHasher, PasswordHasher>();
 builder.Services.AddTransient<IAuthHelper, AuthHelper>();
+builder.Services.AddTransient<ISmsService, SmsService>();
+builder.Services.AddTransient<IEmailService, EmailService>();
+
 
 builder.Services.AddCors(options => options.AddPolicy("MyPolicy", builder =>
    builder.WithOrigins("https://localhost:")

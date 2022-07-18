@@ -1208,3 +1208,9 @@ G:\ASP.Net Core 5 آموزش\Project\Code\LampShade\ServiceHost\obj\Debug\net6.0
 G:\ASP.Net Core 5 آموزش\Project\Code\LampShade\ServiceHost\obj\Debug\net6.0\ref\ServiceHost.dll
 G:\ASP.Net Core 5 آموزش\Project\Code\LampShade\ServiceHost\obj\Debug\net6.0\ServiceHost.pdb
 G:\ASP.Net Core 5 آموزش\Project\Code\LampShade\ServiceHost\obj\Debug\net6.0\ServiceHost.genruntimeconfig.cache
+G:\ASP.Net Core 5 آموزش\Project\Code\LampShade\ServiceHost\bin\Debug\net6.0\MailKit.dll
+G:\ASP.Net Core 5 آموزش\Project\Code\LampShade\ServiceHost\bin\Debug\net6.0\MimeKit.dll
+G:\ASP.Net Core 5 آموزش\Project\Code\LampShade\ServiceHost\bin\Debug\net6.0\BouncyCastle.Crypto.dll
+G:\ASP.Net Core 5 آموزش\Project\Code\LampShade\ServiceHost\bin\Debug\net6.0\SmsIrRestful.dll
+G:\ASP.Net Core 5 آموزش\Project\Code\LampShade\ServiceHost\bin\Debug\net6.0\ShopManagment.Infrastructure.AccountAcl.dll
+G:\ASP.Net Core 5 آموزش\Project\Code\LampShade\ServiceHost\bin\Debug\net6.0\ShopManagment.Infrastructure.AccountAcl.pdb
